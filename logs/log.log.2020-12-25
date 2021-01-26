@@ -1,0 +1,59 @@
+2020-12-25 11:04:17  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-25 11:04:17  [ main:5 ] - [ INFO ]  This is info message.
+2020-12-25 11:04:17  [ main:5 ] - [ ERROR ]  This is error message.
+2020-12-25 11:07:05  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-25 11:07:05  [ main:5 ] - [ INFO ]  This is info message.
+2020-12-25 11:07:05  [ main:6 ] - [ ERROR ]  This is error message.
+2020-12-25 11:16:01  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-25 11:16:01  [ main:4 ] - [ INFO ]  This is info message.
+2020-12-25 11:16:01  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-25 14:47:32  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-25 14:47:32  [ main:4 ] - [ INFO ]  This is info message.
+2020-12-25 14:47:32  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-25 14:48:03  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-25 14:48:03  [ main:4 ] - [ INFO ]  This is info message.
+2020-12-25 14:48:03  [ main:5 ] - [ ERROR ]  This is error message.
+2020-12-25 14:48:56  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-25 14:48:56  [ main:4 ] - [ INFO ]  This is info message.
+2020-12-25 14:48:56  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-25 14:49:08  [ main:11456 ] - [ INFO ]  通过component 初始化bean
+2020-12-25 14:56:33  [ main:1 ] - [ DEBUG ]  This is debug message.
+2020-12-25 14:56:33  [ main:4 ] - [ INFO ]  This is info message.
+2020-12-25 14:56:33  [ main:5 ] - [ ERROR ]  This is error message.
+2020-12-25 14:56:46  [ main:12683 ] - [ INFO ]  通过component 初始化bean
+2020-12-25 15:00:27  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-25 15:00:27  [ main:4 ] - [ INFO ]  This is info message.
+2020-12-25 15:00:27  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-25 15:13:48  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-25 15:13:48  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-25 15:13:48  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-25 15:17:34  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-25 15:17:34  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-25 15:17:34  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-25 15:18:03  [ main:28968 ] - [ INFO ]  configration 容器初始化成功
+2020-12-25 15:18:03  [ main:29041 ] - [ INFO ]  通过component 初始化bean
+2020-12-25 15:24:09  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-25 15:24:09  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-25 15:24:09  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-25 15:24:11  [ main:2351 ] - [ INFO ]  configration 容器初始化成功
+2020-12-25 15:24:11  [ main:2369 ] - [ INFO ]  通过component 初始化bean
+2020-12-25 17:13:09  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-25 17:13:09  [ main:0 ] - [ INFO ]  This is info message.
+2020-12-25 17:13:09  [ main:0 ] - [ ERROR ]  This is error message.
+2020-12-25 17:13:25  [ main:16543 ] - [ INFO ]  configration 容器初始化成功
+2020-12-25 17:13:34  [ main:25203 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-25 17:13:51  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-25 17:13:51  [ main:0 ] - [ INFO ]  This is info message.
+2020-12-25 17:13:51  [ main:10 ] - [ ERROR ]  This is error message.
+2020-12-25 17:13:54  [ main:2687 ] - [ INFO ]  configration 容器初始化成功
+2020-12-25 17:13:54  [ main:2717 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-25 17:14:47  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-25 17:14:47  [ main:10 ] - [ INFO ]  This is info message.
+2020-12-25 17:14:47  [ main:10 ] - [ ERROR ]  This is error message.
+2020-12-25 17:14:50  [ main:3210 ] - [ INFO ]  configration 容器初始化成功
+2020-12-25 17:14:50  [ main:3230 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-25 17:15:38  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-25 17:15:38  [ main:0 ] - [ INFO ]  This is info message.
+2020-12-25 17:15:38  [ main:0 ] - [ ERROR ]  This is error message.
+2020-12-25 17:15:41  [ main:2330 ] - [ INFO ]  configration 容器初始化成功
+2020-12-25 17:15:41  [ main:2340 ] - [ INFO ]  通过component 初始化TestJdbc bean

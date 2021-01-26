@@ -1,0 +1,853 @@
+2021-01-06 08:49:30  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-06 08:49:48  [ nioEventLoopGroup-3-1:18037 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-06 08:49:48  [ nioEventLoopGroup-3-1:18356 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-06 08:49:48  [ nioEventLoopGroup-3-1:18605 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-06 08:49:48  [ nioEventLoopGroup-3-1:18842 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19089 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19102 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19416 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19423 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19424 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19433 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 13.136799 millis. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19437 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19440 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [LCC_LINE_ID, LCC_IP]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19469 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [01, 172.20.18.251]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19472 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [23, 172.20.18.8]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19473 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [24, 172.20.18.251]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19474 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [25, 172.20.18.85]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19474 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [26, 172.20.16.164]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19474 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [27, 172.20.16.202]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19475 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [28, 172.20.16.85]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19475 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [29, 172.20.18.43]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19475 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [30, 172.20.18.4]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19475 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.16.182]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19479 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.60.15]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19479 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [32, 172.20.18.34]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19480 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [70, 119.98.161.5]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19480 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [71, 172.20.18.250]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19480 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [80, 172.20.16.199]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19480 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [81, 172.20.16.246]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19481 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [83, 172.20.16.133]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19481 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19482 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19484 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19485 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19514 ] - [ DEBUG ]  {conn-10005, pstmt-20001} created. select line_id||station_id||dev_type_id||device_id bom,ip_address from w_acc_st.w_op_prm_dev_code
+        where dev_type_id='03' and record_flag='0' order by 1
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19515 ] - [ DEBUG ]  {conn-10005, pstmt-20001} Parameters : []
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19515 ] - [ DEBUG ]  {conn-10005, pstmt-20001} Types : []
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19652 ] - [ DEBUG ]  {conn-10005, pstmt-20001} executed. 137.240473 millis. select line_id||station_id||dev_type_id||device_id bom,ip_address from w_acc_st.w_op_prm_dev_code
+        where dev_type_id='03' and record_flag='0' order by 1
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19653 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} open
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19653 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Header: [BOM, IP_ADDRESS]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19654 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010103151, 172.20.18.36]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19655 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010103152, 172.20.16.199]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19655 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010103153, 10.1.1.153]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19656 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010103154, 10.1.1.154]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19656 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010203151, 10.1.2.151]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19657 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010203152, 10.1.2.152]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19657 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010203153, 10.1.2.153]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19657 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010203154, 10.1.2.154]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19658 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010303151, 10.1.3.151]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19658 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010303152, 10.1.3.152]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19664 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010303153, 10.1.3.153]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19664 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010303154, 10.1.3.154]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19665 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010403155, 10.1.4.155]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19665 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010403156, 10.1.4.156]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19666 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010403157, 10.1.4.157]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19666 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010403158, 10.1.4.158]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19666 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010503151, 10.1.5.151]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19667 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010503152, 10.1.5.152]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19667 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010503153, 10.1.5.153]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19667 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010503154, 10.1.5.154]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19671 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010603151, 10.1.6.151]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19672 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010603152, 10.1.6.152]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19672 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010603153, 10.1.6.153]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19673 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010603154, 10.1.6.154]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19674 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010703151, 10.1.7.151]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19674 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010703152, 10.1.7.152]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19675 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010703153, 10.1.7.153]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19675 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010703154, 10.1.7.154]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19676 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010803151, 10.1.8.151]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19676 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010803152, 10.1.8.152]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19679 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010803153, 10.1.8.153]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19680 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010803154, 10.1.8.154]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19680 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010903151, 10.1.9.151]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19681 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010903152, 10.1.9.152]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19681 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010903153, 10.1.9.153]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19681 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010903154, 10.1.9.154]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19682 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011003151, 10.1.10.151]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19682 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011003152, 10.1.10.152]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19682 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011003153, 10.1.10.153]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19682 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011003154, 10.1.10.154]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19686 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011103151, 10.1.11.151]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19686 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011103152, 10.1.11.152]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19686 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011103153, 10.1.11.153]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19687 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011103154, 10.1.11.154]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19688 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011203151, 10.1.12.151]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19688 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011203152, 10.1.12.152]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19688 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011203153, 10.1.12.153]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19689 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011203154, 10.1.12.154]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19689 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011303151, 10.1.13.151]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19689 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011303152, 10.1.13.152]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19692 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011303153, 10.1.13.153]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19693 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011303154, 10.1.13.154]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19694 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403151, 10.1.14.151]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19694 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403152, 10.1.14.152]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19694 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403153, 10.1.14.153]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19694 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403154, 10.1.14.154]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19695 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403155, 10.1.14.155]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19695 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403156, 10.1.14.156]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19696 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011503151, 10.1.15.151]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19696 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011503152, 10.1.15.152]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19700 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011503153, 10.1.15.153]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19701 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011503154, 10.1.15.154]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19701 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011603151, 10.1.16.151]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19701 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011603152, 10.1.16.152]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19701 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011603153, 10.1.16.153]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19702 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011603154, 10.1.16.154]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19702 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011703151, 10.1.17.151]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19702 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011703152, 10.1.17.152]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19702 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011703153, 10.1.17.153]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19702 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011703154, 10.1.17.154]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19706 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011803151, 10.1.18.151]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19706 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011803152, 10.1.18.152]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19707 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011803153, 10.1.18.153]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19707 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011803154, 10.1.18.154]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19708 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011903151, 10.1.19.151]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19708 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011903152, 10.1.19.152]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19709 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011903153, 10.1.19.153]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19710 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011903154, 10.1.19.154]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19710 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012003151, 10.1.20.l51]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19710 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012003152, 10.1.20.l52]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19714 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012003153, 10.1.20.l53]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19714 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012003154, 10.1.20.l54]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19715 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012103151, 10.1.21.151]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19715 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012103152, 10.1.21.152]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19715 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012103153, 10.1.21.153]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19715 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012103154, 10.1.21.154]
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19716 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} closed
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19716 ] - [ DEBUG ]  {conn-10005, pstmt-20001} clearParameters. 
+2021-01-06 08:49:49  [ nioEventLoopGroup-3-1:19716 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-06 08:51:55  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-06 08:52:23  [ nioEventLoopGroup-3-1:27740 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-06 08:52:23  [ nioEventLoopGroup-3-1:28011 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-06 08:52:23  [ nioEventLoopGroup-3-1:28273 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-06 08:52:23  [ nioEventLoopGroup-3-1:28497 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28730 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28737 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28829 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28838 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28839 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28848 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 12.695469 millis. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28851 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28854 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [LCC_LINE_ID, LCC_IP]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28858 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [01, 172.20.18.251]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28862 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [23, 172.20.18.8]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28863 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [24, 172.20.18.251]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28864 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [25, 172.20.18.85]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28865 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [26, 172.20.16.164]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28865 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [27, 172.20.16.202]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28866 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [28, 172.20.16.85]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28866 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [29, 172.20.18.43]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28867 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [30, 172.20.18.4]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28867 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.16.182]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28871 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.60.15]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28872 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [32, 172.20.18.34]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28872 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [70, 119.98.161.5]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28873 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [71, 172.20.18.250]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28874 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [80, 172.20.16.199]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28874 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [81, 172.20.16.246]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28875 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [83, 172.20.16.133]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28876 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28876 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28879 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28880 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28902 ] - [ DEBUG ]  {conn-10005, pstmt-20001} created. select line_id||station_id||dev_type_id||device_id bom,ip_address from w_acc_st.w_op_prm_dev_code
+        where dev_type_id='03' and record_flag='0' order by 1
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28903 ] - [ DEBUG ]  {conn-10005, pstmt-20001} Parameters : []
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28903 ] - [ DEBUG ]  {conn-10005, pstmt-20001} Types : []
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28914 ] - [ DEBUG ]  {conn-10005, pstmt-20001} executed. 10.675796 millis. select line_id||station_id||dev_type_id||device_id bom,ip_address from w_acc_st.w_op_prm_dev_code
+        where dev_type_id='03' and record_flag='0' order by 1
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28914 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} open
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28915 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Header: [BOM, IP_ADDRESS]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28915 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010103151, 172.20.18.36]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28916 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010103152, 172.20.16.199]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28916 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010103153, 10.1.1.153]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28917 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010103154, 10.1.1.154]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28917 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010203151, 10.1.2.151]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28918 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010203152, 10.1.2.152]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28918 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010203153, 10.1.2.153]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28919 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010203154, 10.1.2.154]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28919 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010303151, 10.1.3.151]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28920 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010303152, 10.1.3.152]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28923 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010303153, 10.1.3.153]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28923 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010303154, 10.1.3.154]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28924 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010403155, 10.1.4.155]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28924 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010403156, 10.1.4.156]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28925 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010403157, 10.1.4.157]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28925 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010403158, 10.1.4.158]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28926 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010503151, 10.1.5.151]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28926 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010503152, 10.1.5.152]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28927 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010503153, 10.1.5.153]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28927 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010503154, 10.1.5.154]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28930 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010603151, 10.1.6.151]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28931 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010603152, 10.1.6.152]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28931 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010603153, 10.1.6.153]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28932 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010603154, 10.1.6.154]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28932 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010703151, 10.1.7.151]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28933 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010703152, 10.1.7.152]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28933 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010703153, 10.1.7.153]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28934 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010703154, 10.1.7.154]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28935 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010803151, 10.1.8.151]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28935 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010803152, 10.1.8.152]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28940 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010803153, 10.1.8.153]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28940 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010803154, 10.1.8.154]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28941 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010903151, 10.1.9.151]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28941 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010903152, 10.1.9.152]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28942 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010903153, 10.1.9.153]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28942 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010903154, 10.1.9.154]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28943 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011003151, 10.1.10.151]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28944 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011003152, 10.1.10.152]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28944 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011003153, 10.1.10.153]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28945 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011003154, 10.1.10.154]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28949 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011103151, 10.1.11.151]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28949 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011103152, 10.1.11.152]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28950 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011103153, 10.1.11.153]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28951 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011103154, 10.1.11.154]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28951 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011203151, 10.1.12.151]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28952 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011203152, 10.1.12.152]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28952 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011203153, 10.1.12.153]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28953 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011203154, 10.1.12.154]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28954 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011303151, 10.1.13.151]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28954 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011303152, 10.1.13.152]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28958 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011303153, 10.1.13.153]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28958 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011303154, 10.1.13.154]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28959 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403151, 10.1.14.151]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28959 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403152, 10.1.14.152]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28960 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403153, 10.1.14.153]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28960 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403154, 10.1.14.154]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28960 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403155, 10.1.14.155]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28961 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403156, 10.1.14.156]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28961 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011503151, 10.1.15.151]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28961 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011503152, 10.1.15.152]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28965 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011503153, 10.1.15.153]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28965 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011503154, 10.1.15.154]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28965 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011603151, 10.1.16.151]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28966 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011603152, 10.1.16.152]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28966 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011603153, 10.1.16.153]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28967 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011603154, 10.1.16.154]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28967 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011703151, 10.1.17.151]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28967 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011703152, 10.1.17.152]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28968 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011703153, 10.1.17.153]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28968 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011703154, 10.1.17.154]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28972 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011803151, 10.1.18.151]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28973 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011803152, 10.1.18.152]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28973 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011803153, 10.1.18.153]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28974 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011803154, 10.1.18.154]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28974 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011903151, 10.1.19.151]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28974 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011903152, 10.1.19.152]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28974 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011903153, 10.1.19.153]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28975 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011903154, 10.1.19.154]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28975 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012003151, 10.1.20.l51]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28975 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012003152, 10.1.20.l52]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28979 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012003153, 10.1.20.l53]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28979 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012003154, 10.1.20.l54]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28979 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012103151, 10.1.21.151]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28980 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012103152, 10.1.21.152]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28980 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012103153, 10.1.21.153]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28980 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012103154, 10.1.21.154]
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28981 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} closed
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28982 ] - [ DEBUG ]  {conn-10005, pstmt-20001} clearParameters. 
+2021-01-06 08:52:24  [ nioEventLoopGroup-3-1:28982 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-06 08:54:04  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-06 08:54:25  [ nioEventLoopGroup-3-1:21020 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-06 08:54:25  [ nioEventLoopGroup-3-1:21284 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:21507 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:21729 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:21975 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:21985 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22081 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22088 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22089 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22098 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 12.660662 millis. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22102 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22105 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [LCC_LINE_ID, LCC_IP]
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22109 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [01, 172.20.18.251]
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22114 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [23, 172.20.18.8]
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22115 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [24, 172.20.18.251]
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22116 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [25, 172.20.18.85]
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22116 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [26, 172.20.16.164]
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22117 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [27, 172.20.16.202]
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22117 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [28, 172.20.16.85]
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22117 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [29, 172.20.18.43]
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22118 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [30, 172.20.18.4]
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22118 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.16.182]
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22124 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.60.15]
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22125 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [32, 172.20.18.34]
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22126 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [70, 119.98.161.5]
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22126 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [71, 172.20.18.250]
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22127 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [80, 172.20.16.199]
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22127 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [81, 172.20.16.246]
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22128 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [83, 172.20.16.133]
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22129 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22129 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-06 08:54:26  [ nioEventLoopGroup-3-1:22132 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44157 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44302 ] - [ DEBUG ]  {conn-10005, pstmt-20001} created. select line_id||station_id||dev_type_id||device_id bom,ip_address from w_acc_st.w_op_prm_dev_code
+        where dev_type_id='03' and record_flag='0' order by 1
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44304 ] - [ DEBUG ]  {conn-10005, pstmt-20001} Parameters : []
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44306 ] - [ DEBUG ]  {conn-10005, pstmt-20001} Types : []
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44319 ] - [ DEBUG ]  {conn-10005, pstmt-20001} executed. 14.432227 millis. select line_id||station_id||dev_type_id||device_id bom,ip_address from w_acc_st.w_op_prm_dev_code
+        where dev_type_id='03' and record_flag='0' order by 1
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44320 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} open
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44321 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Header: [BOM, IP_ADDRESS]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44322 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010103151, 172.20.18.36]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44324 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010103152, 172.20.16.199]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44325 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010103153, 10.1.1.153]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44327 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010103154, 10.1.1.154]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44329 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010203151, 10.1.2.151]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44331 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010203152, 10.1.2.152]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44333 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010203153, 10.1.2.153]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44334 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010203154, 10.1.2.154]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44335 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010303151, 10.1.3.151]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44337 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010303152, 10.1.3.152]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44341 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010303153, 10.1.3.153]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44343 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010303154, 10.1.3.154]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44345 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010403155, 10.1.4.155]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44347 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010403156, 10.1.4.156]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44349 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010403157, 10.1.4.157]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44351 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010403158, 10.1.4.158]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44353 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010503151, 10.1.5.151]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44354 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010503152, 10.1.5.152]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44356 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010503153, 10.1.5.153]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44358 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010503154, 10.1.5.154]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44362 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010603151, 10.1.6.151]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44364 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010603152, 10.1.6.152]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44366 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010603153, 10.1.6.153]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44368 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010603154, 10.1.6.154]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44370 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010703151, 10.1.7.151]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44372 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010703152, 10.1.7.152]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44373 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010703153, 10.1.7.153]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44374 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010703154, 10.1.7.154]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44376 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010803151, 10.1.8.151]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44378 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010803152, 10.1.8.152]
+2021-01-06 08:54:48  [ nioEventLoopGroup-3-1:44383 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010803153, 10.1.8.153]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44384 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010803154, 10.1.8.154]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44385 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010903151, 10.1.9.151]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44386 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010903152, 10.1.9.152]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44388 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010903153, 10.1.9.153]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44389 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010903154, 10.1.9.154]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44390 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011003151, 10.1.10.151]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44391 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011003152, 10.1.10.152]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44393 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011003153, 10.1.10.153]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44394 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011003154, 10.1.10.154]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44398 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011103151, 10.1.11.151]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44399 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011103152, 10.1.11.152]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44400 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011103153, 10.1.11.153]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44402 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011103154, 10.1.11.154]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44404 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011203151, 10.1.12.151]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44406 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011203152, 10.1.12.152]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44408 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011203153, 10.1.12.153]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44410 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011203154, 10.1.12.154]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44412 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011303151, 10.1.13.151]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44414 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011303152, 10.1.13.152]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44419 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011303153, 10.1.13.153]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44422 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011303154, 10.1.13.154]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44424 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403151, 10.1.14.151]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44426 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403152, 10.1.14.152]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44428 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403153, 10.1.14.153]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44430 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403154, 10.1.14.154]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44432 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403155, 10.1.14.155]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44434 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403156, 10.1.14.156]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44436 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011503151, 10.1.15.151]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44438 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011503152, 10.1.15.152]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44446 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011503153, 10.1.15.153]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44448 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011503154, 10.1.15.154]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44450 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011603151, 10.1.16.151]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44452 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011603152, 10.1.16.152]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44454 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011603153, 10.1.16.153]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44456 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011603154, 10.1.16.154]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44459 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011703151, 10.1.17.151]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44462 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011703152, 10.1.17.152]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44464 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011703153, 10.1.17.153]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44466 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011703154, 10.1.17.154]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44472 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011803151, 10.1.18.151]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44474 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011803152, 10.1.18.152]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44476 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011803153, 10.1.18.153]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44478 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011803154, 10.1.18.154]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44480 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011903151, 10.1.19.151]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44482 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011903152, 10.1.19.152]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44484 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011903153, 10.1.19.153]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44485 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011903154, 10.1.19.154]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44487 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012003151, 10.1.20.l51]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44489 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012003152, 10.1.20.l52]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44495 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012003153, 10.1.20.l53]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44497 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012003154, 10.1.20.l54]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44499 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012103151, 10.1.21.151]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44502 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012103152, 10.1.21.152]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44504 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012103153, 10.1.21.153]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44506 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012103154, 10.1.21.154]
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44508 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} closed
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44509 ] - [ DEBUG ]  {conn-10005, pstmt-20001} clearParameters. 
+2021-01-06 08:54:49  [ nioEventLoopGroup-3-1:44511 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-06 08:58:30  [ SpringContextShutdownHook:266079 ] - [ DEBUG ]  {conn-10001} closed
+2021-01-06 08:58:30  [ SpringContextShutdownHook:266104 ] - [ DEBUG ]  {conn-10002} closed
+2021-01-06 08:58:30  [ SpringContextShutdownHook:266142 ] - [ DEBUG ]  {conn-10003} closed
+2021-01-06 08:58:30  [ SpringContextShutdownHook:266184 ] - [ DEBUG ]  {conn-10004} closed
+2021-01-06 08:58:30  [ SpringContextShutdownHook:266185 ] - [ DEBUG ]  {conn-10005, pstmt-20000} closed
+2021-01-06 08:58:30  [ SpringContextShutdownHook:266186 ] - [ DEBUG ]  {conn-10005, pstmt-20001} closed
+2021-01-06 08:58:30  [ SpringContextShutdownHook:266213 ] - [ DEBUG ]  {conn-10005} closed
+2021-01-06 08:59:15  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-06 08:59:34  [ nioEventLoopGroup-3-1:19906 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-06 08:59:35  [ nioEventLoopGroup-3-1:20196 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-06 08:59:35  [ nioEventLoopGroup-3-1:20411 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-06 08:59:35  [ nioEventLoopGroup-3-1:20655 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21170 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21177 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21258 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21268 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21269 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21277 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 14.201968 millis. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21282 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21284 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [LCC_LINE_ID, LCC_IP]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21288 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [01, 172.20.18.251]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21291 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [23, 172.20.18.8]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21292 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [24, 172.20.18.251]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21293 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [25, 172.20.18.85]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21293 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [26, 172.20.16.164]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21294 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [27, 172.20.16.202]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21294 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [28, 172.20.16.85]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21295 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [29, 172.20.18.43]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21295 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [30, 172.20.18.4]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21295 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.16.182]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21299 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.60.15]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21300 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [32, 172.20.18.34]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21300 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [70, 119.98.161.5]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21301 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [71, 172.20.18.250]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21301 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [80, 172.20.16.199]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21301 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [81, 172.20.16.246]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21302 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [83, 172.20.16.133]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21302 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21303 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21305 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21306 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21327 ] - [ DEBUG ]  {conn-10005, pstmt-20001} created. select line_id||station_id||dev_type_id||device_id BOM,IP_ADDRESS from w_acc_st.w_op_prm_dev_code
+        where dev_type_id='03' and record_flag='0' order by 1
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21327 ] - [ DEBUG ]  {conn-10005, pstmt-20001} Parameters : []
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21328 ] - [ DEBUG ]  {conn-10005, pstmt-20001} Types : []
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21348 ] - [ DEBUG ]  {conn-10005, pstmt-20001} executed. 20.540332 millis. select line_id||station_id||dev_type_id||device_id BOM,IP_ADDRESS from w_acc_st.w_op_prm_dev_code
+        where dev_type_id='03' and record_flag='0' order by 1
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21348 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} open
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21349 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Header: [BOM, IP_ADDRESS]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21349 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010103151, 172.20.18.36]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21350 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010103152, 172.20.16.199]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21350 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010103153, 10.1.1.153]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21350 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010103154, 10.1.1.154]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21351 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010203151, 10.1.2.151]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21351 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010203152, 10.1.2.152]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21352 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010203153, 10.1.2.153]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21352 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010203154, 10.1.2.154]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21352 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010303151, 10.1.3.151]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21353 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010303152, 10.1.3.152]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21356 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010303153, 10.1.3.153]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21356 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010303154, 10.1.3.154]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21357 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010403155, 10.1.4.155]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21357 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010403156, 10.1.4.156]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21357 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010403157, 10.1.4.157]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21358 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010403158, 10.1.4.158]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21358 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010503151, 10.1.5.151]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21359 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010503152, 10.1.5.152]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21359 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010503153, 10.1.5.153]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21360 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010503154, 10.1.5.154]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21366 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010603151, 10.1.6.151]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21367 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010603152, 10.1.6.152]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21367 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010603153, 10.1.6.153]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21368 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010603154, 10.1.6.154]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21368 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010703151, 10.1.7.151]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21369 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010703152, 10.1.7.152]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21370 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010703153, 10.1.7.153]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21370 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010703154, 10.1.7.154]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21370 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010803151, 10.1.8.151]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21371 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010803152, 10.1.8.152]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21375 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010803153, 10.1.8.153]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21375 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010803154, 10.1.8.154]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21376 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010903151, 10.1.9.151]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21376 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010903152, 10.1.9.152]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21377 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010903153, 10.1.9.153]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21377 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010903154, 10.1.9.154]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21378 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011003151, 10.1.10.151]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21378 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011003152, 10.1.10.152]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21379 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011003153, 10.1.10.153]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21379 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011003154, 10.1.10.154]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21384 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011103151, 10.1.11.151]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21385 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011103152, 10.1.11.152]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21385 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011103153, 10.1.11.153]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21386 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011103154, 10.1.11.154]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21387 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011203151, 10.1.12.151]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21388 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011203152, 10.1.12.152]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21388 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011203153, 10.1.12.153]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21389 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011203154, 10.1.12.154]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21389 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011303151, 10.1.13.151]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21390 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011303152, 10.1.13.152]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21394 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011303153, 10.1.13.153]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21395 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011303154, 10.1.13.154]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21396 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403151, 10.1.14.151]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21396 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403152, 10.1.14.152]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21397 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403153, 10.1.14.153]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21397 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403154, 10.1.14.154]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21398 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403155, 10.1.14.155]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21398 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403156, 10.1.14.156]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21399 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011503151, 10.1.15.151]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21400 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011503152, 10.1.15.152]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21404 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011503153, 10.1.15.153]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21405 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011503154, 10.1.15.154]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21405 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011603151, 10.1.16.151]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21406 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011603152, 10.1.16.152]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21406 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011603153, 10.1.16.153]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21407 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011603154, 10.1.16.154]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21407 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011703151, 10.1.17.151]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21408 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011703152, 10.1.17.152]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21408 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011703153, 10.1.17.153]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21409 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011703154, 10.1.17.154]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21413 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011803151, 10.1.18.151]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21414 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011803152, 10.1.18.152]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21415 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011803153, 10.1.18.153]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21415 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011803154, 10.1.18.154]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21416 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011903151, 10.1.19.151]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21417 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011903152, 10.1.19.152]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21417 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011903153, 10.1.19.153]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21418 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011903154, 10.1.19.154]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21418 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012003151, 10.1.20.l51]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21419 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012003152, 10.1.20.l52]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21424 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012003153, 10.1.20.l53]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21425 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012003154, 10.1.20.l54]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21425 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012103151, 10.1.21.151]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21426 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012103152, 10.1.21.152]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21426 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012103153, 10.1.21.153]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21427 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012103154, 10.1.21.154]
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21428 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} closed
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21429 ] - [ DEBUG ]  {conn-10005, pstmt-20001} clearParameters. 
+2021-01-06 08:59:36  [ nioEventLoopGroup-3-1:21429 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-06 10:37:05  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-06 10:37:44  [ nioEventLoopGroup-3-1:38552 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-06 10:37:44  [ nioEventLoopGroup-3-1:38805 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-06 10:37:44  [ nioEventLoopGroup-3-1:39050 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39268 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39495 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39504 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39587 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39595 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39595 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39605 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 12.775792 millis. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39610 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39612 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [LCC_LINE_ID, LCC_IP]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39617 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [01, 172.20.18.251]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39621 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [23, 172.20.18.8]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39622 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [24, 172.20.18.251]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39623 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [25, 172.20.18.85]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39624 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [26, 172.20.16.164]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39624 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [27, 172.20.16.202]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39625 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [28, 172.20.16.85]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39625 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [29, 172.20.18.43]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39625 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [30, 172.20.18.4]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39626 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.16.182]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39639 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.60.15]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39640 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [32, 172.20.18.34]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39640 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [70, 119.98.161.5]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39641 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [71, 172.20.18.250]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39641 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [80, 172.20.16.199]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39641 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [81, 172.20.16.246]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39642 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [83, 172.20.16.133]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39643 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39643 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39646 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39647 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39670 ] - [ DEBUG ]  {conn-10005, pstmt-20001} created. select line_id||station_id||dev_type_id||device_id BOM,IP_ADDRESS from w_acc_st.w_op_prm_dev_code
+        where dev_type_id='03' and record_flag='0' order by 1
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39671 ] - [ DEBUG ]  {conn-10005, pstmt-20001} Parameters : []
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39671 ] - [ DEBUG ]  {conn-10005, pstmt-20001} Types : []
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39683 ] - [ DEBUG ]  {conn-10005, pstmt-20001} executed. 11.599955 millis. select line_id||station_id||dev_type_id||device_id BOM,IP_ADDRESS from w_acc_st.w_op_prm_dev_code
+        where dev_type_id='03' and record_flag='0' order by 1
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39683 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} open
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39684 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Header: [BOM, IP_ADDRESS]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39684 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010103151, 172.20.18.36]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39684 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010103152, 172.20.16.199]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39685 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010103153, 10.1.1.153]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39685 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010103154, 10.1.1.154]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39686 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010203151, 10.1.2.151]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39686 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010203152, 10.1.2.152]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39686 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010203153, 10.1.2.153]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39687 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010203154, 10.1.2.154]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39687 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010303151, 10.1.3.151]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39687 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010303152, 10.1.3.152]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39690 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010303153, 10.1.3.153]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39691 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010303154, 10.1.3.154]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39691 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010403155, 10.1.4.155]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39691 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010403156, 10.1.4.156]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39692 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010403157, 10.1.4.157]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39692 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010403158, 10.1.4.158]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39693 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010503151, 10.1.5.151]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39694 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010503152, 10.1.5.152]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39694 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010503153, 10.1.5.153]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39694 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010503154, 10.1.5.154]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39697 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010603151, 10.1.6.151]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39698 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010603152, 10.1.6.152]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39698 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010603153, 10.1.6.153]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39699 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010603154, 10.1.6.154]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39699 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010703151, 10.1.7.151]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39700 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010703152, 10.1.7.152]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39700 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010703153, 10.1.7.153]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39701 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010703154, 10.1.7.154]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39701 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010803151, 10.1.8.151]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39701 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010803152, 10.1.8.152]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39705 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010803153, 10.1.8.153]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39705 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010803154, 10.1.8.154]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39706 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010903151, 10.1.9.151]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39706 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010903152, 10.1.9.152]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39707 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010903153, 10.1.9.153]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39707 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [010903154, 10.1.9.154]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39708 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011003151, 10.1.10.151]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39708 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011003152, 10.1.10.152]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39709 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011003153, 10.1.10.153]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39710 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011003154, 10.1.10.154]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39718 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011103151, 10.1.11.151]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39718 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011103152, 10.1.11.152]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39719 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011103153, 10.1.11.153]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39719 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011103154, 10.1.11.154]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39720 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011203151, 10.1.12.151]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39720 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011203152, 10.1.12.152]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39721 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011203153, 10.1.12.153]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39721 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011203154, 10.1.12.154]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39722 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011303151, 10.1.13.151]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39722 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011303152, 10.1.13.152]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39727 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011303153, 10.1.13.153]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39727 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011303154, 10.1.13.154]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39728 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403151, 10.1.14.151]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39729 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403152, 10.1.14.152]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39729 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403153, 10.1.14.153]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39729 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403154, 10.1.14.154]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39730 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403155, 10.1.14.155]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39730 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011403156, 10.1.14.156]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39731 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011503151, 10.1.15.151]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39732 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011503152, 10.1.15.152]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39735 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011503153, 10.1.15.153]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39736 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011503154, 10.1.15.154]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39736 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011603151, 10.1.16.151]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39737 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011603152, 10.1.16.152]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39737 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011603153, 10.1.16.153]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39738 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011603154, 10.1.16.154]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39738 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011703151, 10.1.17.151]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39739 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011703152, 10.1.17.152]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39739 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011703153, 10.1.17.153]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39740 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011703154, 10.1.17.154]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39744 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011803151, 10.1.18.151]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39744 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011803152, 10.1.18.152]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39745 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011803153, 10.1.18.153]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39745 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011803154, 10.1.18.154]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39746 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011903151, 10.1.19.151]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39746 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011903152, 10.1.19.152]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39747 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011903153, 10.1.19.153]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39747 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [011903154, 10.1.19.154]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39747 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012003151, 10.1.20.l51]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39748 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012003152, 10.1.20.l52]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39751 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012003153, 10.1.20.l53]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39752 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012003154, 10.1.20.l54]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39752 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012103151, 10.1.21.151]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39753 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012103152, 10.1.21.152]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39753 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012103153, 10.1.21.153]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39753 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} Result: [012103154, 10.1.21.154]
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39754 ] - [ DEBUG ]  {conn-10005, pstmt-20001, rs-50001} closed
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39754 ] - [ DEBUG ]  {conn-10005, pstmt-20001} clearParameters. 
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39755 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-06 10:37:45  [ nioEventLoopGroup-3-1:39755 ] - [ INFO ]  接收新连接：IP为 172.20.18.34
+2021-01-06 16:49:44  [ main:0 ] - [ INFO ]  初始化 task
+2021-01-06 16:49:45  [ scheduling-1:899 ] - [ INFO ]  test for aotu!
+2021-01-06 16:49:46  [ scheduling-1:1898 ] - [ INFO ]  test for aotu!
+2021-01-06 16:49:47  [ scheduling-1:2898 ] - [ INFO ]  test for aotu!
+2021-01-06 16:49:48  [ scheduling-1:3898 ] - [ INFO ]  test for aotu!
+2021-01-06 16:49:49  [ scheduling-1:4900 ] - [ INFO ]  test for aotu!
+2021-01-06 16:49:50  [ scheduling-1:5892 ] - [ INFO ]  test for aotu!
+2021-01-06 16:49:51  [ scheduling-1:6887 ] - [ INFO ]  test for aotu!
+2021-01-06 16:49:52  [ scheduling-1:7887 ] - [ INFO ]  test for aotu!
+2021-01-06 16:49:53  [ scheduling-1:8887 ] - [ INFO ]  test for aotu!
+2021-01-06 16:49:54  [ main:9581 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-06 16:49:54  [ scheduling-1:9886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:49:55  [ scheduling-1:10885 ] - [ INFO ]  test for aotu!
+2021-01-06 16:49:56  [ scheduling-1:11886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:49:57  [ scheduling-1:12886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:49:58  [ scheduling-1:13886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:49:59  [ scheduling-1:14886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:00  [ scheduling-1:15886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:01  [ scheduling-1:16886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:02  [ scheduling-1:17886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:03  [ scheduling-1:18886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:04  [ scheduling-1:19886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:05  [ scheduling-1:20886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:06  [ scheduling-1:21886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:07  [ scheduling-1:22886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:08  [ scheduling-1:23886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:09  [ scheduling-1:24886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:10  [ scheduling-1:25886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:11  [ scheduling-1:26886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:12  [ scheduling-1:27886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:13  [ scheduling-1:28886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:14  [ scheduling-1:29887 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:15  [ scheduling-1:30887 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:16  [ scheduling-1:31887 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:17  [ scheduling-1:32886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:18  [ scheduling-1:33886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:19  [ scheduling-1:34886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:20  [ scheduling-1:35886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:21  [ scheduling-1:36886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:22  [ scheduling-1:37886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:23  [ scheduling-1:38886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:24  [ scheduling-1:39886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:25  [ scheduling-1:40886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:26  [ scheduling-1:41886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:27  [ scheduling-1:42886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:28  [ scheduling-1:43886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:29  [ scheduling-1:44886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:30  [ scheduling-1:45886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:31  [ scheduling-1:46887 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:32  [ scheduling-1:47887 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:33  [ scheduling-1:48887 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:34  [ scheduling-1:49887 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:35  [ scheduling-1:50889 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:36  [ scheduling-1:51887 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:37  [ scheduling-1:52883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:38  [ scheduling-1:53885 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:39  [ scheduling-1:54882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:40  [ scheduling-1:55882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:41  [ scheduling-1:56882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:42  [ scheduling-1:57882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:43  [ scheduling-1:58882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:44  [ scheduling-1:59893 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:45  [ scheduling-1:60882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:46  [ scheduling-1:61883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:47  [ scheduling-1:62882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:48  [ scheduling-1:63923 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:49  [ scheduling-1:64882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:50  [ scheduling-1:65882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:51  [ scheduling-1:66881 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:52  [ scheduling-1:67881 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:53  [ scheduling-1:68888 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:54  [ scheduling-1:69881 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:55  [ scheduling-1:70881 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:56  [ scheduling-1:71881 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:57  [ scheduling-1:72881 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:58  [ scheduling-1:73881 ] - [ INFO ]  test for aotu!
+2021-01-06 16:50:59  [ scheduling-1:74886 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:00  [ scheduling-1:75881 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:01  [ scheduling-1:76881 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:02  [ scheduling-1:77881 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:03  [ scheduling-1:78972 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:04  [ scheduling-1:79881 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:05  [ scheduling-1:80881 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:06  [ scheduling-1:81882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:07  [ scheduling-1:82882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:08  [ scheduling-1:83882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:09  [ scheduling-1:84881 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:10  [ scheduling-1:85882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:11  [ scheduling-1:86882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:12  [ scheduling-1:87882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:13  [ scheduling-1:88882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:14  [ scheduling-1:89882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:15  [ scheduling-1:90882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:16  [ scheduling-1:91881 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:17  [ scheduling-1:92882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:18  [ scheduling-1:93881 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:19  [ scheduling-1:94881 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:20  [ scheduling-1:95881 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:21  [ scheduling-1:96881 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:22  [ scheduling-1:97881 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:23  [ scheduling-1:98881 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:24  [ scheduling-1:99882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:25  [ scheduling-1:100882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:26  [ scheduling-1:101882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:27  [ scheduling-1:102882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:28  [ scheduling-1:103882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:29  [ scheduling-1:104882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:30  [ scheduling-1:105882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:31  [ scheduling-1:106882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:32  [ scheduling-1:107882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:33  [ scheduling-1:108882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:34  [ scheduling-1:109882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:35  [ scheduling-1:110882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:36  [ scheduling-1:111882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:37  [ scheduling-1:112882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:38  [ scheduling-1:113882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:39  [ scheduling-1:114882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:40  [ scheduling-1:115882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:41  [ scheduling-1:116883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:42  [ scheduling-1:117883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:43  [ scheduling-1:118883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:44  [ scheduling-1:119883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:45  [ scheduling-1:120883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:46  [ scheduling-1:121882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:47  [ scheduling-1:122883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:48  [ scheduling-1:123934 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:49  [ scheduling-1:124883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:50  [ scheduling-1:125883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:51  [ scheduling-1:126883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:52  [ scheduling-1:127883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:53  [ scheduling-1:128883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:54  [ scheduling-1:129882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:55  [ scheduling-1:130883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:56  [ scheduling-1:131882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:57  [ scheduling-1:132882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:58  [ scheduling-1:133882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:51:59  [ scheduling-1:134883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:00  [ scheduling-1:135883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:01  [ scheduling-1:136883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:02  [ scheduling-1:137883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:03  [ scheduling-1:138883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:04  [ scheduling-1:139883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:05  [ scheduling-1:140896 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:06  [ scheduling-1:141883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:07  [ scheduling-1:142883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:08  [ scheduling-1:143883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:09  [ scheduling-1:144883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:10  [ scheduling-1:145883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:11  [ scheduling-1:146883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:12  [ scheduling-1:147882 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:13  [ scheduling-1:148883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:14  [ scheduling-1:149883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:15  [ scheduling-1:150883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:16  [ scheduling-1:151884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:17  [ scheduling-1:152884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:18  [ scheduling-1:153884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:19  [ scheduling-1:154905 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:20  [ scheduling-1:155884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:21  [ scheduling-1:156884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:22  [ scheduling-1:157883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:23  [ scheduling-1:158884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:24  [ scheduling-1:159884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:25  [ scheduling-1:160884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:26  [ scheduling-1:161884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:27  [ scheduling-1:162883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:28  [ scheduling-1:163883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:29  [ scheduling-1:164883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:30  [ scheduling-1:165883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:31  [ scheduling-1:166883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:32  [ scheduling-1:167883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:33  [ scheduling-1:168883 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:34  [ scheduling-1:169884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:35  [ scheduling-1:170895 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:36  [ scheduling-1:171884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:37  [ scheduling-1:172884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:38  [ scheduling-1:173884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:39  [ scheduling-1:174884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:40  [ scheduling-1:175884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:41  [ scheduling-1:176884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:42  [ scheduling-1:177884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:43  [ scheduling-1:178884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:44  [ scheduling-1:179884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:45  [ scheduling-1:180884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:46  [ scheduling-1:181884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:47  [ scheduling-1:182884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:48  [ scheduling-1:183884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:49  [ scheduling-1:184884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:50  [ scheduling-1:185884 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:51  [ scheduling-1:186885 ] - [ INFO ]  test for aotu!
+2021-01-06 16:52:52  [ scheduling-1:187885 ] - [ INFO ]  test for aotu!

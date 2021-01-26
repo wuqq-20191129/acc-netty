@@ -1,0 +1,187 @@
+2020-12-30 14:30:29  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 14:30:29  [ main:4 ] - [ INFO ]  This is info message.
+2020-12-30 14:30:29  [ main:5 ] - [ ERROR ]  This is error message.
+2020-12-30 14:31:13  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 14:31:13  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-30 14:31:13  [ main:3 ] - [ ERROR ]  This is error message.
+2020-12-30 14:31:19  [ main:5711 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 14:31:19  [ main:5741 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 14:32:55  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 14:32:55  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-30 14:32:55  [ main:3 ] - [ ERROR ]  This is error message.
+2020-12-30 14:32:57  [ main:2429 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 14:32:57  [ main:2447 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 14:40:54  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 14:40:54  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-30 14:40:54  [ main:3 ] - [ ERROR ]  This is error message.
+2020-12-30 14:40:56  [ main:2406 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 14:40:56  [ main:2421 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 14:44:34  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 14:44:34  [ main:4 ] - [ INFO ]  This is info message.
+2020-12-30 14:44:34  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-30 14:44:37  [ main:3063 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 14:44:37  [ main:3091 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 14:48:25  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 14:48:25  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-30 14:48:25  [ main:3 ] - [ ERROR ]  This is error message.
+2020-12-30 14:48:28  [ main:2968 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 14:48:28  [ main:3002 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 14:49:34  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 14:49:34  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-30 14:49:34  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-30 14:49:36  [ main:2649 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 14:49:36  [ main:2665 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 14:51:01  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 14:51:01  [ main:4 ] - [ INFO ]  This is info message.
+2020-12-30 14:51:01  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-30 14:51:04  [ main:3091 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 14:51:24  [ main:22908 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 14:54:57  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 14:54:57  [ main:15 ] - [ INFO ]  This is info message.
+2020-12-30 14:54:57  [ main:15 ] - [ ERROR ]  This is error message.
+2020-12-30 14:55:01  [ main:3902 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 14:55:07  [ main:10230 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 14:58:56  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 14:58:56  [ main:4 ] - [ INFO ]  This is info message.
+2020-12-30 14:58:56  [ main:5 ] - [ ERROR ]  This is error message.
+2020-12-30 14:58:59  [ main:3005 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 14:59:17  [ main:21688 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 15:06:25  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 15:06:25  [ main:4 ] - [ INFO ]  This is info message.
+2020-12-30 15:06:25  [ main:5 ] - [ ERROR ]  This is error message.
+2020-12-30 15:06:28  [ main:3371 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 15:06:46  [ main:21010 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 15:10:06  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 15:10:06  [ main:4 ] - [ INFO ]  This is info message.
+2020-12-30 15:10:06  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-30 15:10:09  [ main:3335 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 15:10:21  [ main:15390 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 15:11:11  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 15:11:11  [ main:4 ] - [ INFO ]  This is info message.
+2020-12-30 15:11:11  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-30 15:11:14  [ main:2524 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 15:11:14  [ main:2543 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 15:14:41  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 15:14:41  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-30 15:14:41  [ main:3 ] - [ ERROR ]  This is error message.
+2020-12-30 15:14:43  [ main:2546 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 15:14:43  [ main:2549 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 15:15:28  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 15:15:28  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-30 15:15:28  [ main:3 ] - [ ERROR ]  This is error message.
+2020-12-30 15:15:30  [ main:2401 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 15:15:30  [ main:2403 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 15:16:45  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 15:16:45  [ main:10 ] - [ INFO ]  This is info message.
+2020-12-30 15:16:45  [ main:10 ] - [ ERROR ]  This is error message.
+2020-12-30 15:16:47  [ main:2503 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 15:16:47  [ main:2505 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 15:18:36  [ main:1 ] - [ DEBUG ]  This is debug message.
+2020-12-30 15:18:36  [ main:4 ] - [ INFO ]  This is info message.
+2020-12-30 15:18:36  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-30 15:18:39  [ main:2579 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 15:18:39  [ main:2581 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 15:21:59  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 15:21:59  [ main:2 ] - [ INFO ]  This is info message.
+2020-12-30 15:21:59  [ main:3 ] - [ ERROR ]  This is error message.
+2020-12-30 15:22:01  [ main:2506 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 15:22:01  [ main:2509 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 15:26:18  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 15:26:18  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-30 15:26:18  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-30 15:26:21  [ main:2499 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 15:26:21  [ main:2502 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 15:27:28  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 15:27:28  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-30 15:27:28  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-30 15:27:39  [ main:11467 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 15:27:45  [ main:17032 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 15:30:26  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 15:30:26  [ main:2 ] - [ INFO ]  This is info message.
+2020-12-30 15:30:26  [ main:2 ] - [ ERROR ]  This is error message.
+2020-12-30 15:30:28  [ main:2580 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 15:34:06  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 15:34:06  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-30 15:34:06  [ main:3 ] - [ ERROR ]  This is error message.
+2020-12-30 15:34:09  [ main:2498 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 15:38:22  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 15:38:22  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-30 15:38:22  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-30 15:38:24  [ main:2489 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 15:38:58  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 15:38:58  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-30 15:38:58  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-30 15:39:01  [ main:2620 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 16:04:21  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 16:04:21  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-30 16:04:21  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-30 16:04:24  [ main:2561 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 16:06:03  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 16:06:03  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-30 16:06:03  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-30 16:06:06  [ main:2641 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 16:07:10  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 16:07:10  [ main:5 ] - [ INFO ]  This is info message.
+2020-12-30 16:07:10  [ main:6 ] - [ ERROR ]  This is error message.
+2020-12-30 16:07:13  [ main:2884 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 16:12:08  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 16:12:08  [ main:4 ] - [ INFO ]  This is info message.
+2020-12-30 16:12:08  [ main:12 ] - [ ERROR ]  This is error message.
+2020-12-30 16:12:10  [ main:2607 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 16:18:36  [ main:0 ] - [ INFO ]  configration ������ʼ���ɹ�
+2020-12-30 16:18:36  [ main:0 ] - [ INFO ]  configration ������ʼ���ɹ�
+2020-12-30 16:22:12  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 16:22:12  [ main:2 ] - [ INFO ]  This is info message.
+2020-12-30 16:22:12  [ main:3 ] - [ ERROR ]  This is error message.
+2020-12-30 16:22:15  [ main:2463 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 16:37:23  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 16:37:23  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-30 16:37:23  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-30 16:37:25  [ main:2817 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 16:41:47  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 16:41:47  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-30 16:41:47  [ main:3 ] - [ ERROR ]  This is error message.
+2020-12-30 16:41:50  [ main:3548 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 16:43:15  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 16:43:15  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-30 16:43:15  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-30 16:43:18  [ main:3012 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 16:45:37  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 16:45:37  [ main:4 ] - [ INFO ]  This is info message.
+2020-12-30 16:45:37  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-30 16:45:40  [ main:3275 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 16:50:55  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 16:50:55  [ main:5 ] - [ INFO ]  This is info message.
+2020-12-30 16:50:55  [ main:5 ] - [ ERROR ]  This is error message.
+2020-12-30 16:50:58  [ main:3301 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 17:01:46  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 17:01:46  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-30 17:01:46  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-30 17:01:49  [ main:2919 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 17:10:03  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 17:10:03  [ main:4 ] - [ INFO ]  This is info message.
+2020-12-30 17:10:03  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-30 17:10:06  [ main:2642 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 17:16:00  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 17:16:00  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-30 17:16:00  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-30 17:16:02  [ main:2586 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 17:16:32  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 17:16:32  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-30 17:16:32  [ main:3 ] - [ ERROR ]  This is error message.
+2020-12-30 17:16:35  [ main:2730 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 17:17:26  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 17:17:26  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-30 17:17:26  [ main:3 ] - [ ERROR ]  This is error message.
+2020-12-30 17:17:28  [ main:2659 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 17:17:52  [ main:1 ] - [ DEBUG ]  This is debug message.
+2020-12-30 17:17:52  [ main:3 ] - [ INFO ]  This is info message.
+2020-12-30 17:17:52  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-30 17:17:55  [ main:3315 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 17:17:56  [ main:4258 ] - [ INFO ]  [{SYS_STORAGE_ID=9999, SYS_GROUP_ID=18, SYS_GROUP_NAME=车票编码测试}, {SYS_STORAGE_ID=0000, SYS_GROUP_ID=17, SYS_GROUP_NAME=查询组}, {SYS_STORAGE_ID=9999, SYS_GROUP_ID=19, SYS_GROUP_NAME=测试组}, {SYS_STORAGE_ID=0001, SYS_GROUP_ID=22, SYS_GROUP_NAME=中心票务业务组}, {SYS_STORAGE_ID=0001, SYS_GROUP_ID=23, SYS_GROUP_NAME=中心票务监管组}, {SYS_STORAGE_ID=9999, SYS_GROUP_ID=72, SYS_GROUP_NAME=ES制票组}, {SYS_STORAGE_ID=9999, SYS_GROUP_ID=71, SYS_GROUP_NAME=ES管理组}, {SYS_STORAGE_ID=9999, SYS_GROUP_ID=73, SYS_GROUP_NAME=ES维护组}, {SYS_STORAGE_ID=9999, SYS_GROUP_ID=99, SYS_GROUP_NAME=超级管理组}, {SYS_STORAGE_ID=0000, SYS_GROUP_ID=11, SYS_GROUP_NAME=参数下发限制组}, {SYS_STORAGE_ID=0001, SYS_GROUP_ID=15, SYS_GROUP_NAME=中心车票编码组}, {SYS_STORAGE_ID=0000, SYS_GROUP_ID=09, SYS_GROUP_NAME=参数及下发}, {SYS_STORAGE_ID=0001, SYS_GROUP_ID=01, SYS_GROUP_NAME=查询组}, {SYS_STORAGE_ID=0000, SYS_GROUP_ID=05, SYS_GROUP_NAME=密钥卡管理}, {SYS_STORAGE_ID=0000, SYS_GROUP_ID=08, SYS_GROUP_NAME=密钥卡发行}, {SYS_STORAGE_ID=9999, SYS_GROUP_ID=04, SYS_GROUP_NAME=车票编码测试}, {SYS_STORAGE_ID=0001, SYS_GROUP_ID=06, SYS_GROUP_NAME=中心票务管理组}, {SYS_STORAGE_ID=0000, SYS_GROUP_ID=12, SYS_GROUP_NAME=记名卡打印组}, {SYS_STORAGE_ID=0000, SYS_GROUP_ID=13, SYS_GROUP_NAME=退款操作}, {SYS_STORAGE_ID=0000, SYS_GROUP_ID=14, SYS_GROUP_NAME=退款审核组}, {SYS_STORAGE_ID=9999, SYS_GROUP_ID=20, SYS_GROUP_NAME=sun}, {SYS_STORAGE_ID=0001, SYS_GROUP_ID=24, SYS_GROUP_NAME=赋权组}, {SYS_STORAGE_ID=0000, SYS_GROUP_ID=25, SYS_GROUP_NAME=轨道测试}]
+2020-12-30 17:17:56  [ main:4259 ] - [ INFO ]  通过component 初始化TestJdbc bean
+2020-12-30 17:20:02  [ main:0 ] - [ DEBUG ]  This is debug message.
+2020-12-30 17:20:02  [ main:4 ] - [ INFO ]  This is info message.
+2020-12-30 17:20:02  [ main:4 ] - [ ERROR ]  This is error message.
+2020-12-30 17:20:05  [ main:2935 ] - [ INFO ]  configration 容器初始化成功
+2020-12-30 17:20:05  [ main:3255 ] - [ INFO ]  通过component 初始化TestJdbc bean

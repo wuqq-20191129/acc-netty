@@ -1,0 +1,236 @@
+2021-01-04 09:52:40  [ main:0 ] - [ DEBUG ]  This is debug message.
+2021-01-04 09:52:40  [ main:16 ] - [ INFO ]  This is info message.
+2021-01-04 09:52:40  [ main:16 ] - [ ERROR ]  This is error message.
+2021-01-04 09:54:16  [ main:0 ] - [ DEBUG ]  This is debug message.
+2021-01-04 09:54:16  [ main:0 ] - [ INFO ]  This is info message.
+2021-01-04 09:54:16  [ main:0 ] - [ ERROR ]  This is error message.
+2021-01-04 10:57:53  [ main:0 ] - [ DEBUG ]  This is debug message.
+2021-01-04 10:57:53  [ main:0 ] - [ INFO ]  This is info message.
+2021-01-04 10:57:53  [ main:0 ] - [ ERROR ]  This is error message.
+2021-01-04 10:59:35  [ main:0 ] - [ DEBUG ]  This is debug message.
+2021-01-04 10:59:35  [ main:0 ] - [ INFO ]  This is info message.
+2021-01-04 10:59:35  [ main:0 ] - [ ERROR ]  This is error message.
+2021-01-04 11:04:41  [ main:0 ] - [ DEBUG ]  This is debug message.
+2021-01-04 11:04:41  [ main:0 ] - [ INFO ]  This is info message.
+2021-01-04 11:04:41  [ main:0 ] - [ ERROR ]  This is error message.
+2021-01-04 11:05:20  [ main:0 ] - [ DEBUG ]  This is debug message.
+2021-01-04 11:05:20  [ main:0 ] - [ INFO ]  This is info message.
+2021-01-04 11:05:20  [ main:0 ] - [ ERROR ]  This is error message.
+2021-01-04 11:06:55  [ main:0 ] - [ DEBUG ]  This is debug message.
+2021-01-04 11:06:55  [ main:0 ] - [ INFO ]  This is info message.
+2021-01-04 11:06:55  [ main:0 ] - [ ERROR ]  This is error message.
+2021-01-04 11:11:23  [ main:0 ] - [ DEBUG ]  This is debug message.
+2021-01-04 11:11:23  [ main:0 ] - [ INFO ]  This is info message.
+2021-01-04 11:11:23  [ main:0 ] - [ ERROR ]  This is error message.
+2021-01-04 11:17:06  [ main:0 ] - [ DEBUG ]  This is debug message.
+2021-01-04 11:17:06  [ main:0 ] - [ INFO ]  This is info message.
+2021-01-04 11:17:06  [ main:0 ] - [ ERROR ]  This is error message.
+2021-01-04 11:20:23  [ main:0 ] - [ DEBUG ]  This is debug message.
+2021-01-04 11:20:23  [ main:2 ] - [ INFO ]  This is info message.
+2021-01-04 11:20:23  [ main:3 ] - [ ERROR ]  This is error message.
+2021-01-04 11:22:29  [ main:0 ] - [ DEBUG ]  This is debug message.
+2021-01-04 11:22:29  [ main:0 ] - [ INFO ]  This is info message.
+2021-01-04 11:22:29  [ main:16 ] - [ ERROR ]  This is error message.
+2021-01-04 14:33:50  [ main:0 ] - [ DEBUG ]  This is debug message.
+2021-01-04 14:33:50  [ main:3 ] - [ INFO ]  This is info message.
+2021-01-04 14:33:50  [ main:3 ] - [ ERROR ]  This is error message.
+2021-01-04 15:01:36  [ main:0 ] - [ DEBUG ]  This is debug message.
+2021-01-04 15:01:36  [ main:3 ] - [ INFO ]  This is info message.
+2021-01-04 15:01:36  [ main:3 ] - [ ERROR ]  This is error message.
+2021-01-04 15:01:39  [ main:3166 ] - [ INFO ]  nettyServer starting
+2021-01-04 15:01:39  [ main:3839 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-04 15:01:40  [ main:4111 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-04 15:01:40  [ main:4388 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-04 15:01:40  [ main:4634 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-04 15:01:40  [ main:4856 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-04 15:01:40  [ main:4862 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-04 15:01:41  [ main:5139 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select CONFIG_NAME , CONFIG_VALUE  from W_ACC_CM.w_cm_cfg_sys
+2021-01-04 15:01:41  [ main:5159 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-04 15:01:41  [ main:5159 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-04 15:01:41  [ main:5172 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 16.323829 millis. select CONFIG_NAME , CONFIG_VALUE  from W_ACC_CM.w_cm_cfg_sys
+2021-01-04 15:01:41  [ main:5176 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-04 15:01:41  [ main:5178 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [CONFIG_NAME, CONFIG_VALUE]
+2021-01-04 15:01:41  [ main:5196 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.metro.max, 30000]
+2021-01-04 15:01:41  [ main:5198 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.oct.max, 20000]
+2021-01-04 15:01:41  [ main:5198 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.section.max, 20]
+2021-01-04 15:01:41  [ main:5199 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [commu.cache.interval, 60000]
+2021-01-04 15:01:41  [ main:5199 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [pattern.reg.mtr, ^83.[0-9]*$]
+2021-01-04 15:01:41  [ main:5200 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [pattern.reg, ^[0-9]*$]
+2021-01-04 15:01:41  [ main:5200 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.length, 16]
+2021-01-04 15:01:41  [ main:5201 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.moc.max, 100000]
+2021-01-04 15:01:41  [ main:5202 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [banklist.moc.max, 100000]
+2021-01-04 15:01:41  [ main:5202 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [business.tcc.control, 1]
+2021-01-04 15:01:41  [ main:5206 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [business.passageflow.handlmode.control, 1]
+2021-01-04 15:01:41  [ main:5206 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.distribute.begin, 1500]
+2021-01-04 15:01:41  [ main:5207 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.distribute.end, 1800]
+2021-01-04 15:01:41  [ main:5207 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-04 15:01:41  [ main:5208 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-04 15:01:41  [ main:5217 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-04 15:01:41  [ main:5237 ] - [ DEBUG ]  {conn-10001} closed
+2021-01-04 15:01:41  [ main:5254 ] - [ DEBUG ]  {conn-10002} closed
+2021-01-04 15:01:41  [ main:5271 ] - [ DEBUG ]  {conn-10003} closed
+2021-01-04 15:01:41  [ main:5289 ] - [ DEBUG ]  {conn-10004} closed
+2021-01-04 15:01:41  [ main:5290 ] - [ DEBUG ]  {conn-10005, pstmt-20000} closed
+2021-01-04 15:01:41  [ main:5307 ] - [ DEBUG ]  {conn-10005} closed
+2021-01-04 15:08:44  [ main:1 ] - [ DEBUG ]  This is debug message.
+2021-01-04 15:08:44  [ main:3 ] - [ INFO ]  This is info message.
+2021-01-04 15:08:44  [ main:3 ] - [ ERROR ]  This is error message.
+2021-01-04 15:08:47  [ main:2882 ] - [ INFO ]  nettyServer starting
+2021-01-04 15:08:48  [ main:3433 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-04 15:08:48  [ main:3695 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-04 15:08:48  [ main:3924 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-04 15:08:48  [ main:4151 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-04 15:08:49  [ main:4375 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-04 15:08:49  [ main:4385 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-04 15:08:49  [ main:4459 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select CONFIG_NAME , CONFIG_VALUE  from W_ACC_CM.w_cm_cfg_sys
+2021-01-04 15:08:49  [ main:4468 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-04 15:08:49  [ main:4468 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-04 15:08:49  [ main:4474 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 10.043923 millis. select CONFIG_NAME , CONFIG_VALUE  from W_ACC_CM.w_cm_cfg_sys
+2021-01-04 15:08:49  [ main:4478 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-04 15:08:49  [ main:4480 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [CONFIG_NAME, CONFIG_VALUE]
+2021-01-04 15:08:49  [ main:4484 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.metro.max, 30000]
+2021-01-04 15:08:49  [ main:4486 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.oct.max, 20000]
+2021-01-04 15:08:49  [ main:4486 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.section.max, 20]
+2021-01-04 15:08:49  [ main:4487 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [commu.cache.interval, 60000]
+2021-01-04 15:08:49  [ main:4487 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [pattern.reg.mtr, ^83.[0-9]*$]
+2021-01-04 15:08:49  [ main:4487 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [pattern.reg, ^[0-9]*$]
+2021-01-04 15:08:49  [ main:4487 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.length, 16]
+2021-01-04 15:08:49  [ main:4488 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.moc.max, 100000]
+2021-01-04 15:08:49  [ main:4488 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [banklist.moc.max, 100000]
+2021-01-04 15:08:49  [ main:4488 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [business.tcc.control, 1]
+2021-01-04 15:08:49  [ main:4492 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [business.passageflow.handlmode.control, 1]
+2021-01-04 15:08:49  [ main:4492 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.distribute.begin, 1500]
+2021-01-04 15:08:49  [ main:4493 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.distribute.end, 1800]
+2021-01-04 15:08:49  [ main:4493 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-04 15:08:49  [ main:4494 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-04 15:08:49  [ main:4496 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-04 15:08:49  [ main:4497 ] - [ INFO ]  ======{CONFIG_NAME=blacklist.metro.max, CONFIG_VALUE=30000}
+2021-01-04 15:08:49  [ main:4497 ] - [ INFO ]  ======{CONFIG_NAME=blacklist.oct.max, CONFIG_VALUE=20000}
+2021-01-04 15:08:49  [ main:4497 ] - [ INFO ]  ======{CONFIG_NAME=blacklist.section.max, CONFIG_VALUE=20}
+2021-01-04 15:08:49  [ main:4497 ] - [ INFO ]  ======{CONFIG_NAME=commu.cache.interval, CONFIG_VALUE=60000}
+2021-01-04 15:08:49  [ main:4498 ] - [ INFO ]  ======{CONFIG_NAME=pattern.reg.mtr, CONFIG_VALUE=^83.[0-9]*$}
+2021-01-04 15:08:49  [ main:4498 ] - [ INFO ]  ======{CONFIG_NAME=pattern.reg, CONFIG_VALUE=^[0-9]*$}
+2021-01-04 15:08:49  [ main:4498 ] - [ INFO ]  ======{CONFIG_NAME=blacklist.length, CONFIG_VALUE=16}
+2021-01-04 15:08:49  [ main:4498 ] - [ INFO ]  ======{CONFIG_NAME=blacklist.moc.max, CONFIG_VALUE=100000}
+2021-01-04 15:08:49  [ main:4498 ] - [ INFO ]  ======{CONFIG_NAME=banklist.moc.max, CONFIG_VALUE=100000}
+2021-01-04 15:08:49  [ main:4498 ] - [ INFO ]  ======{CONFIG_NAME=business.tcc.control, CONFIG_VALUE=1}
+2021-01-04 15:08:49  [ main:4499 ] - [ INFO ]  ======{CONFIG_NAME=business.passageflow.handlmode.control, CONFIG_VALUE=1}
+2021-01-04 15:08:49  [ main:4499 ] - [ INFO ]  ======{CONFIG_NAME=blacklist.distribute.begin, CONFIG_VALUE=1500}
+2021-01-04 15:08:49  [ main:4499 ] - [ INFO ]  ======{CONFIG_NAME=blacklist.distribute.end, CONFIG_VALUE=1800}
+2021-01-04 15:14:39  [ main:0 ] - [ DEBUG ]  This is debug message.
+2021-01-04 15:14:39  [ main:4 ] - [ INFO ]  This is info message.
+2021-01-04 15:14:39  [ main:4 ] - [ ERROR ]  This is error message.
+2021-01-04 15:14:43  [ main:3826 ] - [ INFO ]  nettyServer starting
+2021-01-04 15:14:56  [ main:16788 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-04 15:14:57  [ main:17150 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-04 15:14:57  [ main:17390 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-04 15:14:57  [ main:17622 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-04 15:14:57  [ main:17864 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-04 15:14:57  [ main:17886 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-04 15:14:58  [ main:18263 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select CONFIG_NAME , CONFIG_VALUE  from W_ACC_CM.w_cm_cfg_sys
+2021-01-04 15:14:58  [ main:18289 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-04 15:14:58  [ main:18290 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-04 15:14:58  [ main:18303 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 24.453392 millis. select CONFIG_NAME , CONFIG_VALUE  from W_ACC_CM.w_cm_cfg_sys
+2021-01-04 15:14:58  [ main:18314 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-04 15:14:58  [ main:18327 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [CONFIG_NAME, CONFIG_VALUE]
+2021-01-04 15:14:58  [ main:18349 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.metro.max, 30000]
+2021-01-04 15:14:58  [ main:18358 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.oct.max, 20000]
+2021-01-04 15:14:58  [ main:18360 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.section.max, 20]
+2021-01-04 15:14:58  [ main:18361 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [commu.cache.interval, 60000]
+2021-01-04 15:14:58  [ main:18363 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [pattern.reg.mtr, ^83.[0-9]*$]
+2021-01-04 15:14:58  [ main:18364 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [pattern.reg, ^[0-9]*$]
+2021-01-04 15:14:58  [ main:18366 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.length, 16]
+2021-01-04 15:14:58  [ main:18368 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.moc.max, 100000]
+2021-01-04 15:14:58  [ main:18369 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [banklist.moc.max, 100000]
+2021-01-04 15:14:58  [ main:18370 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [business.tcc.control, 1]
+2021-01-04 15:14:58  [ main:18375 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [business.passageflow.handlmode.control, 1]
+2021-01-04 15:14:58  [ main:18377 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.distribute.begin, 1500]
+2021-01-04 15:14:58  [ main:18378 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.distribute.end, 1800]
+2021-01-04 15:14:58  [ main:18380 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-04 15:14:58  [ main:18381 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-04 15:15:09  [ main:29158 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-04 15:15:42  [ SpringContextShutdownHook:62984 ] - [ DEBUG ]  {conn-10001} closed
+2021-01-04 15:15:42  [ SpringContextShutdownHook:63008 ] - [ DEBUG ]  {conn-10002} closed
+2021-01-04 15:15:43  [ SpringContextShutdownHook:63040 ] - [ DEBUG ]  {conn-10003} closed
+2021-01-04 15:15:43  [ SpringContextShutdownHook:63062 ] - [ DEBUG ]  {conn-10004} closed
+2021-01-04 15:15:43  [ SpringContextShutdownHook:63064 ] - [ DEBUG ]  {conn-10005, pstmt-20000} closed
+2021-01-04 15:15:43  [ SpringContextShutdownHook:63085 ] - [ DEBUG ]  {conn-10005} closed
+2021-01-04 15:15:54  [ main:0 ] - [ DEBUG ]  This is debug message.
+2021-01-04 15:15:54  [ main:4 ] - [ INFO ]  This is info message.
+2021-01-04 15:15:54  [ main:4 ] - [ ERROR ]  This is error message.
+2021-01-04 15:15:58  [ main:3489 ] - [ INFO ]  nettyServer starting
+2021-01-04 15:16:15  [ main:21105 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-04 15:16:16  [ main:21379 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-04 15:16:16  [ main:21619 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-04 15:16:16  [ main:21870 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-04 15:16:16  [ main:22098 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-04 15:16:16  [ main:22112 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-04 15:16:17  [ main:22224 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select CONFIG_NAME , CONFIG_VALUE  from W_ACC_CM.w_cm_cfg_sys
+2021-01-04 15:16:17  [ main:22231 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-04 15:16:17  [ main:22232 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-04 15:16:17  [ main:22238 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 10.209031 millis. select CONFIG_NAME , CONFIG_VALUE  from W_ACC_CM.w_cm_cfg_sys
+2021-01-04 15:16:17  [ main:22242 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-04 15:16:17  [ main:22244 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [CONFIG_NAME, CONFIG_VALUE]
+2021-01-04 15:16:17  [ main:22249 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.metro.max, 30000]
+2021-01-04 15:16:17  [ main:22251 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.oct.max, 20000]
+2021-01-04 15:16:17  [ main:22251 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.section.max, 20]
+2021-01-04 15:16:17  [ main:22252 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [commu.cache.interval, 60000]
+2021-01-04 15:16:17  [ main:22252 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [pattern.reg.mtr, ^83.[0-9]*$]
+2021-01-04 15:16:17  [ main:22252 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [pattern.reg, ^[0-9]*$]
+2021-01-04 15:16:17  [ main:22253 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.length, 16]
+2021-01-04 15:16:17  [ main:22253 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.moc.max, 100000]
+2021-01-04 15:16:17  [ main:22254 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [banklist.moc.max, 100000]
+2021-01-04 15:16:17  [ main:22254 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [business.tcc.control, 1]
+2021-01-04 15:16:17  [ main:22257 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [business.passageflow.handlmode.control, 1]
+2021-01-04 15:16:17  [ main:22258 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.distribute.begin, 1500]
+2021-01-04 15:16:17  [ main:22258 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.distribute.end, 1800]
+2021-01-04 15:16:17  [ main:22259 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-04 15:16:17  [ main:22259 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-04 15:16:17  [ main:22262 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-04 15:16:17  [ main:22262 ] - [ INFO ]  nettyServer end Start
+2021-01-04 15:16:17  [ SpringContextShutdownHook:22721 ] - [ DEBUG ]  {conn-10001} closed
+2021-01-04 15:16:17  [ SpringContextShutdownHook:22739 ] - [ DEBUG ]  {conn-10002} closed
+2021-01-04 15:16:17  [ SpringContextShutdownHook:22760 ] - [ DEBUG ]  {conn-10003} closed
+2021-01-04 15:16:17  [ SpringContextShutdownHook:22780 ] - [ DEBUG ]  {conn-10004} closed
+2021-01-04 15:16:17  [ SpringContextShutdownHook:22781 ] - [ DEBUG ]  {conn-10005, pstmt-20000} closed
+2021-01-04 15:16:17  [ SpringContextShutdownHook:22807 ] - [ DEBUG ]  {conn-10005} closed
+2021-01-04 15:16:32  [ main:0 ] - [ DEBUG ]  This is debug message.
+2021-01-04 15:16:32  [ main:4 ] - [ INFO ]  This is info message.
+2021-01-04 15:16:32  [ main:4 ] - [ ERROR ]  This is error message.
+2021-01-04 15:16:35  [ main:3693 ] - [ INFO ]  nettyServer starting
+2021-01-04 15:16:36  [ main:4237 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-04 15:16:36  [ main:4505 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-04 15:16:36  [ main:4727 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-04 15:16:37  [ main:4954 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-04 15:16:37  [ main:5183 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-04 15:16:37  [ main:5199 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-04 15:16:37  [ main:5297 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select CONFIG_NAME , CONFIG_VALUE  from W_ACC_CM.w_cm_cfg_sys
+2021-01-04 15:16:37  [ main:5306 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-04 15:16:37  [ main:5307 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-04 15:16:37  [ main:5313 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 10.805206 millis. select CONFIG_NAME , CONFIG_VALUE  from W_ACC_CM.w_cm_cfg_sys
+2021-01-04 15:16:37  [ main:5317 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-04 15:16:37  [ main:5320 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [CONFIG_NAME, CONFIG_VALUE]
+2021-01-04 15:16:37  [ main:5325 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.metro.max, 30000]
+2021-01-04 15:16:37  [ main:5327 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.oct.max, 20000]
+2021-01-04 15:16:37  [ main:5328 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.section.max, 20]
+2021-01-04 15:16:37  [ main:5328 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [commu.cache.interval, 60000]
+2021-01-04 15:16:37  [ main:5328 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [pattern.reg.mtr, ^83.[0-9]*$]
+2021-01-04 15:16:37  [ main:5329 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [pattern.reg, ^[0-9]*$]
+2021-01-04 15:16:37  [ main:5329 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.length, 16]
+2021-01-04 15:16:37  [ main:5329 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.moc.max, 100000]
+2021-01-04 15:16:37  [ main:5330 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [banklist.moc.max, 100000]
+2021-01-04 15:16:37  [ main:5330 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [business.tcc.control, 1]
+2021-01-04 15:16:37  [ main:5334 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [business.passageflow.handlmode.control, 1]
+2021-01-04 15:16:37  [ main:5334 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.distribute.begin, 1500]
+2021-01-04 15:16:37  [ main:5334 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [blacklist.distribute.end, 1800]
+2021-01-04 15:16:37  [ main:5335 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-04 15:16:37  [ main:5336 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-04 15:16:37  [ main:5338 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-04 15:17:04  [ main:31880 ] - [ INFO ]  nettyServer end Start
+2021-01-04 15:17:04  [ SpringContextShutdownHook:32608 ] - [ DEBUG ]  {conn-10001} closed
+2021-01-04 15:17:04  [ SpringContextShutdownHook:32626 ] - [ DEBUG ]  {conn-10002} closed
+2021-01-04 15:17:04  [ SpringContextShutdownHook:32644 ] - [ DEBUG ]  {conn-10003} closed
+2021-01-04 15:17:04  [ SpringContextShutdownHook:32672 ] - [ DEBUG ]  {conn-10004} closed
+2021-01-04 15:17:04  [ SpringContextShutdownHook:32673 ] - [ DEBUG ]  {conn-10005, pstmt-20000} closed
+2021-01-04 15:17:04  [ SpringContextShutdownHook:32692 ] - [ DEBUG ]  {conn-10005} closed
+2021-01-04 16:57:53  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001

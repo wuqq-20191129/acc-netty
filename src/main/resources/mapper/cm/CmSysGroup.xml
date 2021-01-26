@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wuqq.dao.st.StSysGroupMapper">
+
+    <resultMap id="resultMap" type="com.wuqq.entry.SysGroup">
+        <result column="SYS_GROUP_ID" property="groupId"/>
+        <result column="SYS_GROUP_NAME" property="groupName"/>
+        <result column="SYS_STORAGE_ID" property="storagerId"/>
+    </resultMap>
+
+    <select id="findAll" resultType="Map">
+        select SYS_GROUP_ID , SYS_GROUP_NAME , SYS_STORAGE_ID from W_ACC_ST.W_OP_SYS_GROUP
+    </select>
+</mapper>

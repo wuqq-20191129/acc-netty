@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wuqq.dao.cm.CmDbConfig">
+
+    <resultMap id="resultMap" type="com.wuqq.entry.Config">
+        <result column="CONFIG_NAME" property="configName"/>
+        <result column="CONFIG_VALUE" property="configValue"/>
+    </resultMap>
+
+    <select id="getConfig" resultType="Map">
+        select CONFIG_NAME , CONFIG_VALUE  from W_ACC_CM.w_cm_cfg_sys
+    </select>
+</mapper>

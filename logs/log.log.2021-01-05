@@ -1,0 +1,611 @@
+2021-01-05 09:23:56  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 10:17:32  [ main:1 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 11:03:27  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 11:08:19  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 11:10:11  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 11:10:43  [ nioEventLoopGroup-3-1:32786 ] - [ INFO ]  进入ip过滤
+2021-01-05 11:13:14  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 11:14:06  [ nioEventLoopGroup-3-1:51112 ] - [ INFO ]  进入ip过滤
+2021-01-05 14:23:17  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 14:24:52  [ nioEventLoopGroup-3-1:95264 ] - [ INFO ]  进入ip过滤
+2021-01-05 14:33:00  [ main:0 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-05 14:33:00  [ main:480 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-05 14:33:01  [ main:703 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-05 14:33:01  [ main:932 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-05 14:33:01  [ main:1179 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-05 14:33:01  [ main:1187 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-05 14:33:01  [ main:1564 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 14:33:01  [ main:1581 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-05 14:33:01  [ main:1581 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-05 14:33:01  [ main:1597 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 26.815329 millis. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 14:33:01  [ main:1601 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-05 14:33:01  [ main:1603 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [LCC_LINE_ID, LCC_IP]
+2021-01-05 14:33:01  [ main:1623 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [01, 172.20.18.251]
+2021-01-05 14:33:01  [ main:1625 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [23, 172.20.18.8]
+2021-01-05 14:33:01  [ main:1626 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [24, 172.20.18.251]
+2021-01-05 14:33:01  [ main:1626 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [25, 172.20.18.85]
+2021-01-05 14:33:01  [ main:1628 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [26, 172.20.16.164]
+2021-01-05 14:33:01  [ main:1629 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [27, 172.20.16.202]
+2021-01-05 14:33:01  [ main:1629 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [28, 172.20.16.85]
+2021-01-05 14:33:01  [ main:1629 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [29, 172.20.18.43]
+2021-01-05 14:33:01  [ main:1630 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [30, 172.20.18.4]
+2021-01-05 14:33:01  [ main:1630 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.16.182]
+2021-01-05 14:33:01  [ main:1633 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.60.15]
+2021-01-05 14:33:01  [ main:1634 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [32, 172.20.18.34]
+2021-01-05 14:33:01  [ main:1634 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [70, 119.98.161.5]
+2021-01-05 14:33:01  [ main:1634 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [71, 172.20.18.250]
+2021-01-05 14:33:01  [ main:1635 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [80, 172.20.16.199]
+2021-01-05 14:33:01  [ main:1635 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [81, 172.20.16.246]
+2021-01-05 14:33:01  [ main:1636 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [83, 172.20.16.133]
+2021-01-05 14:33:01  [ main:1636 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-05 14:33:01  [ main:1637 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-05 14:33:01  [ main:1639 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-05 14:33:02  [ main:1669 ] - [ DEBUG ]  {conn-10001} closed
+2021-01-05 14:33:02  [ main:1686 ] - [ DEBUG ]  {conn-10002} closed
+2021-01-05 14:33:02  [ main:1704 ] - [ DEBUG ]  {conn-10003} closed
+2021-01-05 14:33:02  [ main:1722 ] - [ DEBUG ]  {conn-10004} closed
+2021-01-05 14:33:02  [ main:1722 ] - [ DEBUG ]  {conn-10005, pstmt-20000} closed
+2021-01-05 14:33:02  [ main:1738 ] - [ DEBUG ]  {conn-10005} closed
+2021-01-05 14:41:23  [ main:0 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-05 14:41:23  [ main:371 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-05 14:41:23  [ main:605 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-05 14:41:23  [ main:816 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-05 14:41:24  [ main:1042 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-05 14:41:24  [ main:1050 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-05 14:41:24  [ main:1135 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 14:41:24  [ main:1143 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-05 14:41:24  [ main:1144 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-05 14:41:24  [ main:1151 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 11.423245 millis. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 14:41:24  [ main:1156 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-05 14:41:24  [ main:1159 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [LCC_LINE_ID, LCC_IP]
+2021-01-05 14:41:24  [ main:1164 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [01, 172.20.18.251]
+2021-01-05 14:41:24  [ main:1167 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [23, 172.20.18.8]
+2021-01-05 14:41:24  [ main:1168 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [24, 172.20.18.251]
+2021-01-05 14:41:24  [ main:1168 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [25, 172.20.18.85]
+2021-01-05 14:41:24  [ main:1169 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [26, 172.20.16.164]
+2021-01-05 14:41:24  [ main:1170 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [27, 172.20.16.202]
+2021-01-05 14:41:24  [ main:1170 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [28, 172.20.16.85]
+2021-01-05 14:41:24  [ main:1171 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [29, 172.20.18.43]
+2021-01-05 14:41:24  [ main:1171 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [30, 172.20.18.4]
+2021-01-05 14:41:24  [ main:1172 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.16.182]
+2021-01-05 14:41:24  [ main:1175 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.60.15]
+2021-01-05 14:41:24  [ main:1176 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [32, 172.20.18.34]
+2021-01-05 14:41:24  [ main:1176 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [70, 119.98.161.5]
+2021-01-05 14:41:24  [ main:1177 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [71, 172.20.18.250]
+2021-01-05 14:41:24  [ main:1178 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [80, 172.20.16.199]
+2021-01-05 14:41:24  [ main:1178 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [81, 172.20.16.246]
+2021-01-05 14:41:24  [ main:1179 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [83, 172.20.16.133]
+2021-01-05 14:41:24  [ main:1180 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-05 14:41:24  [ main:1180 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-05 14:41:24  [ main:1184 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-05 14:41:31  [ main:8937 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 14:42:38  [ main:0 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-05 14:42:39  [ main:276 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-05 14:42:39  [ main:498 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-05 14:42:39  [ main:723 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-05 14:42:39  [ main:945 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-05 14:42:39  [ main:955 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-05 14:42:39  [ main:1091 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 14:42:39  [ main:1101 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-05 14:42:39  [ main:1102 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-05 14:42:39  [ main:1111 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 14.739684 millis. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 14:42:39  [ main:1117 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-05 14:42:39  [ main:1121 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [LCC_LINE_ID, LCC_IP]
+2021-01-05 14:42:39  [ main:1128 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [01, 172.20.18.251]
+2021-01-05 14:42:39  [ main:1130 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [23, 172.20.18.8]
+2021-01-05 14:42:39  [ main:1131 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [24, 172.20.18.251]
+2021-01-05 14:42:39  [ main:1131 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [25, 172.20.18.85]
+2021-01-05 14:42:39  [ main:1133 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [26, 172.20.16.164]
+2021-01-05 14:42:39  [ main:1133 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [27, 172.20.16.202]
+2021-01-05 14:42:39  [ main:1134 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [28, 172.20.16.85]
+2021-01-05 14:42:39  [ main:1134 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [29, 172.20.18.43]
+2021-01-05 14:42:39  [ main:1135 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [30, 172.20.18.4]
+2021-01-05 14:42:39  [ main:1135 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.16.182]
+2021-01-05 14:42:39  [ main:1139 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.60.15]
+2021-01-05 14:42:39  [ main:1140 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [32, 172.20.18.34]
+2021-01-05 14:42:39  [ main:1140 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [70, 119.98.161.5]
+2021-01-05 14:42:39  [ main:1141 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [71, 172.20.18.250]
+2021-01-05 14:42:39  [ main:1141 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [80, 172.20.16.199]
+2021-01-05 14:42:39  [ main:1142 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [81, 172.20.16.246]
+2021-01-05 14:42:39  [ main:1143 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [83, 172.20.16.133]
+2021-01-05 14:42:39  [ main:1144 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-05 14:42:39  [ main:1144 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-05 14:42:39  [ main:1148 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-05 14:42:49  [ main:11088 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 14:43:00  [ nioEventLoopGroup-3-1:21366 ] - [ INFO ]  进入ip过滤
+2021-01-05 14:44:04  [ SpringContextShutdownHook:85213 ] - [ DEBUG ]  {conn-10001} closed
+2021-01-05 14:44:04  [ SpringContextShutdownHook:85231 ] - [ DEBUG ]  {conn-10002} closed
+2021-01-05 14:44:04  [ SpringContextShutdownHook:85251 ] - [ DEBUG ]  {conn-10003} closed
+2021-01-05 14:44:04  [ SpringContextShutdownHook:85272 ] - [ DEBUG ]  {conn-10004} closed
+2021-01-05 14:44:04  [ SpringContextShutdownHook:85273 ] - [ DEBUG ]  {conn-10005, pstmt-20000} closed
+2021-01-05 14:44:04  [ SpringContextShutdownHook:85294 ] - [ DEBUG ]  {conn-10005} closed
+2021-01-05 14:45:10  [ main:0 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-05 14:45:10  [ main:301 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-05 14:45:10  [ main:587 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-05 14:45:11  [ main:831 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-05 14:45:11  [ main:1051 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-05 14:45:11  [ main:1064 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-05 14:45:11  [ main:1167 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 14:45:11  [ main:1177 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-05 14:45:11  [ main:1178 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-05 14:45:11  [ main:1184 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 10.782001 millis. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 14:45:11  [ main:1189 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-05 14:45:11  [ main:1193 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [LCC_LINE_ID, LCC_IP]
+2021-01-05 14:45:11  [ main:1198 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [01, 172.20.18.251]
+2021-01-05 14:45:11  [ main:1200 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [23, 172.20.18.8]
+2021-01-05 14:45:11  [ main:1201 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [24, 172.20.18.251]
+2021-01-05 14:45:11  [ main:1202 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [25, 172.20.18.85]
+2021-01-05 14:45:11  [ main:1204 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [26, 172.20.16.164]
+2021-01-05 14:45:11  [ main:1204 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [27, 172.20.16.202]
+2021-01-05 14:45:11  [ main:1204 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [28, 172.20.16.85]
+2021-01-05 14:45:11  [ main:1205 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [29, 172.20.18.43]
+2021-01-05 14:45:11  [ main:1205 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [30, 172.20.18.4]
+2021-01-05 14:45:11  [ main:1205 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.16.182]
+2021-01-05 14:45:11  [ main:1208 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.60.15]
+2021-01-05 14:45:11  [ main:1209 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [32, 172.20.18.34]
+2021-01-05 14:45:11  [ main:1209 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [70, 119.98.161.5]
+2021-01-05 14:45:11  [ main:1210 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [71, 172.20.18.250]
+2021-01-05 14:45:11  [ main:1210 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [80, 172.20.16.199]
+2021-01-05 14:45:11  [ main:1210 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [81, 172.20.16.246]
+2021-01-05 14:45:11  [ main:1211 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [83, 172.20.16.133]
+2021-01-05 14:45:11  [ main:1212 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-05 14:45:11  [ main:1213 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-05 14:45:11  [ main:1216 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-05 14:45:51  [ SpringContextShutdownHook:40708 ] - [ DEBUG ]  {conn-10001} closed
+2021-01-05 14:45:51  [ SpringContextShutdownHook:40725 ] - [ DEBUG ]  {conn-10002} closed
+2021-01-05 14:45:51  [ SpringContextShutdownHook:40749 ] - [ DEBUG ]  {conn-10003} closed
+2021-01-05 14:45:51  [ SpringContextShutdownHook:40768 ] - [ DEBUG ]  {conn-10004} closed
+2021-01-05 14:45:51  [ SpringContextShutdownHook:40769 ] - [ DEBUG ]  {conn-10005, pstmt-20000} closed
+2021-01-05 14:45:51  [ SpringContextShutdownHook:40787 ] - [ DEBUG ]  {conn-10005} closed
+2021-01-05 14:53:08  [ main:0 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-05 14:53:09  [ main:283 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-05 14:53:09  [ main:576 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-05 14:53:09  [ main:787 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-05 14:53:09  [ main:1020 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-05 14:53:10  [ main:1029 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-05 14:53:10  [ main:1129 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 14:53:10  [ main:1137 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-05 14:53:10  [ main:1138 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-05 14:53:10  [ main:1146 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 12.276898 millis. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 14:53:10  [ main:1150 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-05 14:53:10  [ main:1153 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [LCC_LINE_ID, LCC_IP]
+2021-01-05 14:53:10  [ main:1158 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [01, 172.20.18.251]
+2021-01-05 14:53:10  [ main:1160 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [23, 172.20.18.8]
+2021-01-05 14:53:10  [ main:1161 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [24, 172.20.18.251]
+2021-01-05 14:53:10  [ main:1161 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [25, 172.20.18.85]
+2021-01-05 14:53:10  [ main:1162 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [26, 172.20.16.164]
+2021-01-05 14:53:10  [ main:1163 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [27, 172.20.16.202]
+2021-01-05 14:53:10  [ main:1163 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [28, 172.20.16.85]
+2021-01-05 14:53:10  [ main:1164 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [29, 172.20.18.43]
+2021-01-05 14:53:10  [ main:1164 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [30, 172.20.18.4]
+2021-01-05 14:53:10  [ main:1164 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.16.182]
+2021-01-05 14:53:10  [ main:1168 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.60.15]
+2021-01-05 14:53:10  [ main:1168 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [32, 172.20.18.34]
+2021-01-05 14:53:10  [ main:1168 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [70, 119.98.161.5]
+2021-01-05 14:53:10  [ main:1169 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [71, 172.20.18.250]
+2021-01-05 14:53:10  [ main:1169 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [80, 172.20.16.199]
+2021-01-05 14:53:10  [ main:1170 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [81, 172.20.16.246]
+2021-01-05 14:53:10  [ main:1170 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [83, 172.20.16.133]
+2021-01-05 14:53:10  [ main:1171 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-05 14:53:10  [ main:1171 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-05 14:53:10  [ main:1174 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-05 14:53:18  [ main:9415 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 14:55:26  [ SpringContextShutdownHook:137071 ] - [ DEBUG ]  {conn-10001} closed
+2021-01-05 14:55:26  [ SpringContextShutdownHook:137089 ] - [ DEBUG ]  {conn-10002} closed
+2021-01-05 14:55:26  [ SpringContextShutdownHook:137108 ] - [ DEBUG ]  {conn-10003} closed
+2021-01-05 14:55:26  [ SpringContextShutdownHook:137128 ] - [ DEBUG ]  {conn-10004} closed
+2021-01-05 14:55:26  [ SpringContextShutdownHook:137129 ] - [ DEBUG ]  {conn-10005, pstmt-20000} closed
+2021-01-05 14:55:26  [ SpringContextShutdownHook:137148 ] - [ DEBUG ]  {conn-10005} closed
+2021-01-05 14:55:38  [ main:0 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-05 14:55:39  [ main:409 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-05 14:55:39  [ main:639 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-05 14:55:40  [ main:1353 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-05 14:55:40  [ main:1995 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-05 14:55:40  [ main:2008 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-05 14:55:40  [ main:2097 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 14:55:40  [ main:2103 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-05 14:55:40  [ main:2104 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-05 14:55:40  [ main:2111 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 10.433489 millis. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 14:55:40  [ main:2115 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-05 14:55:40  [ main:2117 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [LCC_LINE_ID, LCC_IP]
+2021-01-05 14:55:40  [ main:2121 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [01, 172.20.18.251]
+2021-01-05 14:55:40  [ main:2123 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [23, 172.20.18.8]
+2021-01-05 14:55:40  [ main:2123 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [24, 172.20.18.251]
+2021-01-05 14:55:40  [ main:2123 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [25, 172.20.18.85]
+2021-01-05 14:55:40  [ main:2124 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [26, 172.20.16.164]
+2021-01-05 14:55:40  [ main:2125 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [27, 172.20.16.202]
+2021-01-05 14:55:40  [ main:2125 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [28, 172.20.16.85]
+2021-01-05 14:55:40  [ main:2126 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [29, 172.20.18.43]
+2021-01-05 14:55:40  [ main:2126 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [30, 172.20.18.4]
+2021-01-05 14:55:40  [ main:2127 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.16.182]
+2021-01-05 14:55:40  [ main:2130 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.60.15]
+2021-01-05 14:55:40  [ main:2130 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [32, 172.20.18.34]
+2021-01-05 14:55:40  [ main:2130 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [70, 119.98.161.5]
+2021-01-05 14:55:40  [ main:2131 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [71, 172.20.18.250]
+2021-01-05 14:55:40  [ main:2131 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [80, 172.20.16.199]
+2021-01-05 14:55:40  [ main:2131 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [81, 172.20.16.246]
+2021-01-05 14:55:40  [ main:2132 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [83, 172.20.16.133]
+2021-01-05 14:55:40  [ main:2132 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-05 14:55:40  [ main:2133 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-05 14:55:40  [ main:2135 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-05 14:55:49  [ main:10693 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 15:08:14  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 15:09:53  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 15:11:08  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 15:13:13  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 15:15:09  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 15:18:49  [ main:0 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-05 15:18:50  [ main:379 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-05 15:18:50  [ main:598 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-05 15:18:50  [ main:833 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-05 15:18:50  [ main:1061 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-05 15:18:50  [ main:1068 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-05 15:18:50  [ main:1149 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 15:18:50  [ main:1156 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-05 15:18:50  [ main:1157 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-05 15:18:50  [ main:1164 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 10.685167 millis. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 15:18:50  [ main:1171 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-05 15:18:50  [ main:1174 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [LCC_LINE_ID, LCC_IP]
+2021-01-05 15:18:50  [ main:1179 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [01, 172.20.18.251]
+2021-01-05 15:18:50  [ main:1181 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [23, 172.20.18.8]
+2021-01-05 15:18:50  [ main:1182 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [24, 172.20.18.251]
+2021-01-05 15:18:50  [ main:1182 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [25, 172.20.18.85]
+2021-01-05 15:18:50  [ main:1183 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [26, 172.20.16.164]
+2021-01-05 15:18:50  [ main:1184 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [27, 172.20.16.202]
+2021-01-05 15:18:50  [ main:1185 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [28, 172.20.16.85]
+2021-01-05 15:18:50  [ main:1185 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [29, 172.20.18.43]
+2021-01-05 15:18:50  [ main:1185 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [30, 172.20.18.4]
+2021-01-05 15:18:50  [ main:1185 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.16.182]
+2021-01-05 15:18:50  [ main:1189 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.60.15]
+2021-01-05 15:18:50  [ main:1189 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [32, 172.20.18.34]
+2021-01-05 15:18:50  [ main:1189 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [70, 119.98.161.5]
+2021-01-05 15:18:50  [ main:1190 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [71, 172.20.18.250]
+2021-01-05 15:18:50  [ main:1190 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [80, 172.20.16.199]
+2021-01-05 15:18:50  [ main:1190 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [81, 172.20.16.246]
+2021-01-05 15:18:50  [ main:1191 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [83, 172.20.16.133]
+2021-01-05 15:18:50  [ main:1192 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-05 15:18:50  [ main:1192 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-05 15:18:50  [ main:1194 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-05 15:18:59  [ main:9640 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 15:21:46  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 16:10:54  [ main:0 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-05 16:10:54  [ main:475 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-05 16:10:54  [ main:706 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-05 16:10:55  [ main:936 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-05 16:10:55  [ main:1204 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-05 16:10:55  [ main:1218 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-05 16:10:55  [ main:1862 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 16:10:55  [ main:1887 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-05 16:10:55  [ main:1888 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-05 16:10:55  [ main:1907 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 31.180428 millis. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 16:10:55  [ main:1916 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-05 16:10:55  [ main:1929 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [LCC_LINE_ID, LCC_IP]
+2021-01-05 16:10:56  [ main:1944 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [01, 172.20.18.251]
+2021-01-05 16:10:56  [ main:1952 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [23, 172.20.18.8]
+2021-01-05 16:10:56  [ main:1953 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [24, 172.20.18.251]
+2021-01-05 16:10:56  [ main:1954 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [25, 172.20.18.85]
+2021-01-05 16:10:56  [ main:1963 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [26, 172.20.16.164]
+2021-01-05 16:10:56  [ main:1965 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [27, 172.20.16.202]
+2021-01-05 16:10:56  [ main:1966 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [28, 172.20.16.85]
+2021-01-05 16:10:56  [ main:1968 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [29, 172.20.18.43]
+2021-01-05 16:10:56  [ main:1969 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [30, 172.20.18.4]
+2021-01-05 16:10:56  [ main:1970 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.16.182]
+2021-01-05 16:10:56  [ main:1980 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.60.15]
+2021-01-05 16:10:56  [ main:1981 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [32, 172.20.18.34]
+2021-01-05 16:10:56  [ main:1982 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [70, 119.98.161.5]
+2021-01-05 16:10:56  [ main:1984 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [71, 172.20.18.250]
+2021-01-05 16:10:56  [ main:1988 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [80, 172.20.16.199]
+2021-01-05 16:10:56  [ main:1990 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [81, 172.20.16.246]
+2021-01-05 16:10:56  [ main:1998 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [83, 172.20.16.133]
+2021-01-05 16:10:56  [ main:2001 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-05 16:10:56  [ main:2002 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-05 16:10:56  [ main:2011 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-05 16:11:19  [ SpringContextShutdownHook:25542 ] - [ DEBUG ]  {conn-10001} closed
+2021-01-05 16:11:19  [ SpringContextShutdownHook:25560 ] - [ DEBUG ]  {conn-10002} closed
+2021-01-05 16:11:19  [ SpringContextShutdownHook:25578 ] - [ DEBUG ]  {conn-10003} closed
+2021-01-05 16:11:19  [ SpringContextShutdownHook:25598 ] - [ DEBUG ]  {conn-10004} closed
+2021-01-05 16:11:19  [ SpringContextShutdownHook:25599 ] - [ DEBUG ]  {conn-10005, pstmt-20000} closed
+2021-01-05 16:11:19  [ SpringContextShutdownHook:25617 ] - [ DEBUG ]  {conn-10005} closed
+2021-01-05 16:15:31  [ main:0 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-05 16:15:32  [ main:324 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-05 16:15:32  [ main:572 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-05 16:15:32  [ main:801 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-05 16:15:33  [ main:1169 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-05 16:15:33  [ main:1177 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-05 16:15:33  [ main:1271 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 16:15:33  [ main:1280 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-05 16:15:33  [ main:1280 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-05 16:15:33  [ main:1289 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 12.6977 millis. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 16:15:33  [ main:1293 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-05 16:15:33  [ main:1296 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [LCC_LINE_ID, LCC_IP]
+2021-01-05 16:15:33  [ main:1302 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [01, 172.20.18.251]
+2021-01-05 16:15:33  [ main:1304 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [23, 172.20.18.8]
+2021-01-05 16:15:33  [ main:1305 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [24, 172.20.18.251]
+2021-01-05 16:15:33  [ main:1305 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [25, 172.20.18.85]
+2021-01-05 16:15:33  [ main:1307 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [26, 172.20.16.164]
+2021-01-05 16:15:33  [ main:1307 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [27, 172.20.16.202]
+2021-01-05 16:15:33  [ main:1308 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [28, 172.20.16.85]
+2021-01-05 16:15:33  [ main:1308 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [29, 172.20.18.43]
+2021-01-05 16:15:33  [ main:1309 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [30, 172.20.18.4]
+2021-01-05 16:15:33  [ main:1309 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.16.182]
+2021-01-05 16:15:33  [ main:1313 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.60.15]
+2021-01-05 16:15:33  [ main:1313 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [32, 172.20.18.34]
+2021-01-05 16:15:33  [ main:1314 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [70, 119.98.161.5]
+2021-01-05 16:15:33  [ main:1314 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [71, 172.20.18.250]
+2021-01-05 16:15:33  [ main:1315 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [80, 172.20.16.199]
+2021-01-05 16:15:33  [ main:1315 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [81, 172.20.16.246]
+2021-01-05 16:15:33  [ main:1316 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [83, 172.20.16.133]
+2021-01-05 16:15:33  [ main:1317 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-05 16:15:33  [ main:1318 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-05 16:15:33  [ main:1321 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-05 16:15:57  [ SpringContextShutdownHook:25327 ] - [ DEBUG ]  {conn-10001} closed
+2021-01-05 16:15:57  [ SpringContextShutdownHook:25344 ] - [ DEBUG ]  {conn-10002} closed
+2021-01-05 16:15:57  [ SpringContextShutdownHook:25362 ] - [ DEBUG ]  {conn-10003} closed
+2021-01-05 16:15:57  [ SpringContextShutdownHook:25385 ] - [ DEBUG ]  {conn-10004} closed
+2021-01-05 16:15:57  [ SpringContextShutdownHook:25387 ] - [ DEBUG ]  {conn-10005, pstmt-20000} closed
+2021-01-05 16:15:57  [ SpringContextShutdownHook:25410 ] - [ DEBUG ]  {conn-10005} closed
+2021-01-05 16:18:58  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 16:53:09  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 16:53:34  [ nioEventLoopGroup-3-1:25063 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:25316 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:25565 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:25804 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:26034 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:26040 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:26108 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:26115 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:26116 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:26122 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 9.664175 millis. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:26125 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:26127 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [LCC_LINE_ID, LCC_IP]
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:26131 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [01, 172.20.18.251]
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:26133 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [23, 172.20.18.8]
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:26133 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [24, 172.20.18.251]
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:26135 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [25, 172.20.18.85]
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:26135 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [26, 172.20.16.164]
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:26136 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [27, 172.20.16.202]
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:26136 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [28, 172.20.16.85]
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:26137 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [29, 172.20.18.43]
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:26137 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [30, 172.20.18.4]
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:26138 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.16.182]
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:26141 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.60.15]
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:26142 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [32, 172.20.18.34]
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:26142 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [70, 119.98.161.5]
+2021-01-05 16:53:35  [ nioEventLoopGroup-3-1:26142 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [71, 172.20.18.250]
+2021-01-05 16:53:36  [ nioEventLoopGroup-3-1:26143 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [80, 172.20.16.199]
+2021-01-05 16:53:36  [ nioEventLoopGroup-3-1:26143 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [81, 172.20.16.246]
+2021-01-05 16:53:36  [ nioEventLoopGroup-3-1:26144 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [83, 172.20.16.133]
+2021-01-05 16:53:36  [ nioEventLoopGroup-3-1:26144 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-05 16:53:36  [ nioEventLoopGroup-3-1:26145 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-05 16:53:36  [ nioEventLoopGroup-3-1:26147 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-05 16:57:06  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 16:57:27  [ nioEventLoopGroup-3-1:20952 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-05 16:57:27  [ nioEventLoopGroup-3-1:21223 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-05 16:57:27  [ nioEventLoopGroup-3-1:21464 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-05 16:57:27  [ nioEventLoopGroup-3-1:21697 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:21917 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:21925 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:21996 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22003 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22003 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22010 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 9.729772 millis. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22013 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22015 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [LCC_LINE_ID, LCC_IP]
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22018 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [01, 172.20.18.251]
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22020 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [23, 172.20.18.8]
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22020 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [24, 172.20.18.251]
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22021 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [25, 172.20.18.85]
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22022 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [26, 172.20.16.164]
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22022 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [27, 172.20.16.202]
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22022 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [28, 172.20.16.85]
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22023 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [29, 172.20.18.43]
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22023 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [30, 172.20.18.4]
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22023 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.16.182]
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22026 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.60.15]
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22027 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [32, 172.20.18.34]
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22028 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [70, 119.98.161.5]
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22028 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [71, 172.20.18.250]
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22028 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [80, 172.20.16.199]
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22028 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [81, 172.20.16.246]
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22029 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [83, 172.20.16.133]
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22029 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22030 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-05 16:57:28  [ nioEventLoopGroup-3-1:22032 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-05 16:58:37  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 16:59:13  [ nioEventLoopGroup-3-1:36018 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-05 16:59:13  [ nioEventLoopGroup-3-1:36286 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-05 16:59:13  [ nioEventLoopGroup-3-1:36519 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-05 16:59:13  [ nioEventLoopGroup-3-1:36909 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37450 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37462 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37555 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37562 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37562 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37570 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 10.835996 millis. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37573 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37575 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [LCC_LINE_ID, LCC_IP]
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37578 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [01, 172.20.18.251]
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37580 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [23, 172.20.18.8]
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37581 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [24, 172.20.18.251]
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37582 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [25, 172.20.18.85]
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37582 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [26, 172.20.16.164]
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37582 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [27, 172.20.16.202]
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37583 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [28, 172.20.16.85]
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37583 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [29, 172.20.18.43]
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37583 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [30, 172.20.18.4]
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37584 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.16.182]
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37587 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.60.15]
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37587 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [32, 172.20.18.34]
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37588 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [70, 119.98.161.5]
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37588 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [71, 172.20.18.250]
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37588 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [80, 172.20.16.199]
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37589 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [81, 172.20.16.246]
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37589 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [83, 172.20.16.133]
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37589 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37590 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-05 16:59:14  [ nioEventLoopGroup-3-1:37592 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-05 17:02:40  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 17:02:57  [ nioEventLoopGroup-3-1:17306 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-05 17:02:57  [ nioEventLoopGroup-3-1:17558 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-05 17:02:57  [ nioEventLoopGroup-3-1:17783 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18012 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18283 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18289 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18361 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18369 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18369 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18377 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 11.508476 millis. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18380 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18383 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [LCC_LINE_ID, LCC_IP]
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18387 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [01, 172.20.18.251]
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18389 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [23, 172.20.18.8]
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18389 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [24, 172.20.18.251]
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18390 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [25, 172.20.18.85]
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18391 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [26, 172.20.16.164]
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18391 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [27, 172.20.16.202]
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18392 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [28, 172.20.16.85]
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18392 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [29, 172.20.18.43]
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18393 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [30, 172.20.18.4]
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18393 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.16.182]
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18396 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.60.15]
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18397 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [32, 172.20.18.34]
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18397 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [70, 119.98.161.5]
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18397 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [71, 172.20.18.250]
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18398 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [80, 172.20.16.199]
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18398 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [81, 172.20.16.246]
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18399 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [83, 172.20.16.133]
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18399 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18399 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-05 17:02:58  [ nioEventLoopGroup-3-1:18402 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-05 17:07:54  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 17:08:21  [ nioEventLoopGroup-3-1:27019 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:27279 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:27497 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:27721 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:27962 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:27970 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28059 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28067 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28068 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28075 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 11.093029 millis. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28079 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28081 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [LCC_LINE_ID, LCC_IP]
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28084 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [01, 172.20.18.251]
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28086 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [23, 172.20.18.8]
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28087 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [24, 172.20.18.251]
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28088 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [25, 172.20.18.85]
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28088 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [26, 172.20.16.164]
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28088 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [27, 172.20.16.202]
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28089 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [28, 172.20.16.85]
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28089 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [29, 172.20.18.43]
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28090 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [30, 172.20.18.4]
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28090 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.16.182]
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28093 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.60.15]
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28094 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [32, 172.20.18.34]
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28094 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [70, 119.98.161.5]
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28094 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [71, 172.20.18.250]
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28095 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [80, 172.20.16.199]
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28096 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [81, 172.20.16.246]
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28096 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [83, 172.20.16.133]
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28097 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28098 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-05 17:08:22  [ nioEventLoopGroup-3-1:28100 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-05 17:09:35  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 17:10:04  [ nioEventLoopGroup-3-1:28602 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-05 17:10:04  [ nioEventLoopGroup-3-1:28871 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-05 17:10:04  [ nioEventLoopGroup-3-1:29113 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29342 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29568 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29577 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29649 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29657 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29657 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29664 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 9.725309 millis. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29668 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29670 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [LCC_LINE_ID, LCC_IP]
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29673 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [01, 172.20.18.251]
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29675 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [23, 172.20.18.8]
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29675 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [24, 172.20.18.251]
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29676 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [25, 172.20.18.85]
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29677 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [26, 172.20.16.164]
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29677 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [27, 172.20.16.202]
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29677 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [28, 172.20.16.85]
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29678 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [29, 172.20.18.43]
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29678 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [30, 172.20.18.4]
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29678 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.16.182]
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29681 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.60.15]
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29682 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [32, 172.20.18.34]
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29682 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [70, 119.98.161.5]
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29683 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [71, 172.20.18.250]
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29683 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [80, 172.20.16.199]
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29683 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [81, 172.20.16.246]
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29684 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [83, 172.20.16.133]
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29684 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29685 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-05 17:10:05  [ nioEventLoopGroup-3-1:29687 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-05 17:20:32  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 17:20:56  [ nioEventLoopGroup-3-1:23720 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-05 17:20:56  [ nioEventLoopGroup-3-1:23977 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-05 17:20:56  [ nioEventLoopGroup-3-1:24200 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24450 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24683 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24690 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24764 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24770 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24771 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24778 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 10.767275 millis. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24782 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24784 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [LCC_LINE_ID, LCC_IP]
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24788 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [01, 172.20.18.251]
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24792 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [23, 172.20.18.8]
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24792 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [24, 172.20.18.251]
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24793 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [25, 172.20.18.85]
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24794 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [26, 172.20.16.164]
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24794 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [27, 172.20.16.202]
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24795 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [28, 172.20.16.85]
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24795 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [29, 172.20.18.43]
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24796 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [30, 172.20.18.4]
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24796 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.16.182]
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24799 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.60.15]
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24800 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [32, 172.20.18.34]
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24800 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [70, 119.98.161.5]
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24800 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [71, 172.20.18.250]
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24801 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [80, 172.20.16.199]
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24801 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [81, 172.20.16.246]
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24802 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [83, 172.20.16.133]
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24802 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24803 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-05 17:20:57  [ nioEventLoopGroup-3-1:24806 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2021-01-05 17:24:40  [ main:0 ] - [ INFO ]  服务器启动成功，端口5001
+2021-01-05 17:25:03  [ nioEventLoopGroup-3-1:22694 ] - [ DEBUG ]  {conn-10001} connected
+2021-01-05 17:25:03  [ nioEventLoopGroup-3-1:22975 ] - [ DEBUG ]  {conn-10002} connected
+2021-01-05 17:25:03  [ nioEventLoopGroup-3-1:23223 ] - [ DEBUG ]  {conn-10003} connected
+2021-01-05 17:25:03  [ nioEventLoopGroup-3-1:23443 ] - [ DEBUG ]  {conn-10004} connected
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23654 ] - [ DEBUG ]  {conn-10005} connected
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23663 ] - [ DEBUG ]  {conn-10005} pool-connect
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23733 ] - [ DEBUG ]  {conn-10005, pstmt-20000} created. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23739 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Parameters : []
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23740 ] - [ DEBUG ]  {conn-10005, pstmt-20000} Types : []
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23746 ] - [ DEBUG ]  {conn-10005, pstmt-20000} executed. 9.734234 millis. select LCC_LINE_ID , LCC_IP from w_acc_st.w_st_cod_lcc_line order by 1
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23750 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} open
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23752 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Header: [LCC_LINE_ID, LCC_IP]
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23755 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [01, 172.20.18.251]
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23758 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [23, 172.20.18.8]
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23759 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [24, 172.20.18.251]
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23760 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [25, 172.20.18.85]
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23760 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [26, 172.20.16.164]
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23761 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [27, 172.20.16.202]
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23761 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [28, 172.20.16.85]
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23761 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [29, 172.20.18.43]
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23762 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [30, 172.20.18.4]
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23762 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.16.182]
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23765 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [31, 172.20.60.15]
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23765 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [32, 172.20.18.34]
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23766 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [70, 119.98.161.5]
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23766 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [71, 172.20.18.250]
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23766 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [80, 172.20.16.199]
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23767 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [81, 172.20.16.246]
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23768 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} Result: [83, 172.20.16.133]
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23768 ] - [ DEBUG ]  {conn-10005, pstmt-20000, rs-50000} closed
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23769 ] - [ DEBUG ]  {conn-10005, pstmt-20000} clearParameters. 
+2021-01-05 17:25:04  [ nioEventLoopGroup-3-1:23771 ] - [ DEBUG ]  {conn-10005} pool-recycle
