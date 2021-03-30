@@ -1,13 +1,17 @@
 package com.wuqq.handler;
 
-//import com.wuqq.base.ConstructMessageBase;
-import com.wuqq.constant.message.Message;
+
+import com.wuqq.base.ConstructMessageBase;
+import com.wuqq.exception.MessageException;
+import com.wuqq.mq.RocketMqSender;
 import io.netty.buffer.ByteBuf;
+import io.netty.buffer.Unpooled;
 import io.netty.channel.*;
 import org.apache.log4j.Logger;
-import org.springframework.stereotype.Component;
 
 import java.net.InetSocketAddress;
+import java.util.Arrays;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @Classname NettyServerHandler
@@ -15,34 +19,57 @@ import java.net.InetSocketAddress;
  * @Date 2021/1/6 9:11
  * @Created by mh
  */
-@Component
+//@Component
 @ChannelHandler.Sharable
 public class NettyServerHandler extends ChannelInboundHandlerAdapter {
 
-    public static  int seriaNo;
+    public  int seriaNo=0;
 
     private static Logger logger = Logger.getLogger(NettyServerHandler.class);
 
+    private static ConcurrentHashMap<String, Channel> channelMap = new ConcurrentHashMap<String, Channel>();
 
+    private RocketMqSender sender;
+
+    public NettyServerHandler(RocketMqSender sender) {
+        this.sender =sender;
+    }
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
         logger.info("处理消息：IP为 "+((InetSocketAddress)ctx.channel().remoteAddress()).getAddress().getHostAddress());
-        //Message buf = (Message) msg;
-        //logger.info(buf.toString());
-
-        ByteBuf byteBuf = (ByteBuf) msg;
-        byte[] data = new byte[byteBuf.readableBytes()];
-        byteBuf.getBytes(0,data);
-
-        String messageId =""+(char)data[0]+(char)data[1];
-        logger.info("messageId"+messageId);
-        //super.channelRead(ctx, msg);
+        //ByteBuf byteBuf = (ByteBuf) msg;
+        if(msg instanceof byte[]){
+            logger.info("解码成功......");
+            logger.info(Arrays.toString((byte[]) msg));
+        }
+        //ConstructMessageBase cmb = new ConstructMessageBase();
+        //byte[] data = cmb.constructQuery(seriaNo);
+        //logger.info("待发送消息====>"+ Arrays.toString(data));
+        //ctx.writeAndFlush(data);
+        //switch (dataType){
+        //    case  2:
+        //        //消息处理
+        //        //hanleForMessage(byteBuf);
+        //        break;
+        //    case 3:
+        //        //继续发送查询消息包
+        //        //cmb.constructQuery(seriaNo);
+        //        //ctx.writeAndFlush( cmb.constructQuery(seriaNo));
+        //
+        //}
+        //byte[] data = new byte[byteBuf.readableBytes()];
+        //byteBuf.getBytes(0,data);
+        //
+        //String messageId =""+(char)data[0]+(char)data[1];
+        //logger.info("messageId"+messageId);
+        //sender.send(data);
+        ////super.channelRead(ctx, msg);
     }
 
     @Override
     public void channelReadComplete(ChannelHandlerContext ctx) throws Exception {
-        logger.info("channelReadComplet");
+        logger.info("======>  channelReadComplet");
         //super.channelReadComplete(ctx);
     }
 
@@ -51,10 +78,7 @@ public class NettyServerHandler extends ChannelInboundHandlerAdapter {
         super.userEventTriggered(ctx, evt);
     }
 
-    @Override
-    public void channelWritabilityChanged(ChannelHandlerContext ctx) throws Exception {
-        super.channelWritabilityChanged(ctx);
-    }
+
 
     @Override
     public void exceptionCaught(ChannelHandlerContext ctx, Throwable cause) throws Exception {
@@ -65,23 +89,16 @@ public class NettyServerHandler extends ChannelInboundHandlerAdapter {
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
-        //logger.info("接收新连接 发送查询数据包：IP为 "+((InetSocketAddress)ctx.channel().remoteAddress()).getAddress().getHostAddress());
-        //while (true) {
-        //    seriaNo += 1;
-        //    if (seriaNo > 255) {
-        //        seriaNo = 0;
-        //    }
-        //    //ctx.writeAndFlush(new ConstructMessageBase().constructQuery(seriaNo));
-        //    ctx.channel().writeAndFlush((new ConstructMessageBase().constructQuery(seriaNo)));
-        //}
-        super.channelActive(ctx);
+        String clientIp =((InetSocketAddress)(ctx.channel().remoteAddress())).getAddress().getHostAddress();
+        logger.info("接收新连接 !    IP为 "+clientIp);
+        channelMap.put(clientIp,ctx.channel());
+        logger.info("=====> 构建查询消息包===> 序列号为0");
+        ConstructMessageBase constructMessageBase = new ConstructMessageBase();
+        channelMap.get(clientIp).writeAndFlush(constructMessageBase.constructQuery(seriaNo));
     }
 
     @Override
     public void channelInactive(ChannelHandlerContext ctx) throws Exception {
-        //logger.info("连接不合法！ 关闭连接~");
 
-
-        super.channelInactive(ctx);
     }
 }
