@@ -49,6 +49,6 @@ public class TcpClient {
     }
 
     public static void main(String[] args) throws InterruptedException {
-        new TcpClient("127.0.0.1",5001).init();
+        new TcpClient("172.20.18.9",5001).init();
     }
 }

@@ -21,23 +21,31 @@ public class TimeClientHandler extends ChannelInboundHandlerAdapter {
     @Override
 
     public void channelRead(ChannelHandlerContext ctx, Object msg) {
-
-        ByteBuf m = (ByteBuf) msg;
-
-        try {
-
-            long currentTimeMillis = (m.readUnsignedInt() - 2208988800L) * 1000L;
-
-            System.out.println(new Date(currentTimeMillis));
-
-        } finally {
-
-            m.release();
-
-        }
+        //
+        //ByteBuf m = (ByteBuf) msg;
+        //
+        //try {
+        //
+        //    //long currentTimeMillis = (m.readUnsignedInt() - 2208988800L) * 1000L;
+        //    //
+        //    //System.out.println(new Date(currentTimeMillis));
+        //
+        //} catch (Exception e) {
+        //    e.printStackTrace();
+        //}
 
     }
 
+    @Override
+    public void channelActive(ChannelHandlerContext ctx) throws Exception {
+        int i = 255;
+        while(i>0){
+            byte[] msg = {(byte)0xeb,0x01,0x00,0,0,0x03};
+            msg[2] = (byte) i;
+            ctx.writeAndFlush(msg);
+            i--;
+        }
+    }
 
     @Override
 

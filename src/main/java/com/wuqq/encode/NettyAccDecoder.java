@@ -1,5 +1,6 @@
 package com.wuqq.encode;
 
+
 import com.wuqq.exception.MessageException;
 import com.wuqq.handler.NettyServerHandler;
 import io.netty.buffer.ByteBuf;
@@ -16,6 +17,7 @@ import org.apache.log4j.Logger;
 import java.io.ByteArrayInputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
+import java.net.InetSocketAddress;
 import java.util.List;
 
 /**
@@ -62,10 +64,10 @@ public class NettyAccDecoder extends ByteArrayDecoder {
                     return;
                 }
                 int serialNo = (in.readByte()) & 0xff;
-                logger.info("获取到的序列号：" + serialNo);
+                logger.info("获取到的序列号：" + serialNo+"Ip"+((InetSocketAddress)(ctx.channel().remoteAddress())).getAddress().getHostAddress());
 
-                logger.info("自增的静态serialNo:" + NettyServerHandler.serialNo);
-                if (serialNo > 255 || serialNo != NettyServerHandler.serialNo) {
+                logger.info("自增的静态serialNo:" + NettyServerHandler.seriaNo.get().get()+"对应Ip"+((InetSocketAddress)(ctx.channel().remoteAddress())).getAddress().getHostAddress());
+                if (serialNo > 255 || serialNo != NettyServerHandler.seriaNo.get().get()) {
                     logger.error("序列号违法.......");
                 }
                 int len = in.readUnsignedShort();

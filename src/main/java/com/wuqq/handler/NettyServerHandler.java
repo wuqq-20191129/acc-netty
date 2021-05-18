@@ -12,6 +12,7 @@ import org.apache.log4j.Logger;
 import java.net.InetSocketAddress;
 import java.util.Arrays;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.concurrent.atomic.AtomicInteger;
 
 /**
  * @Classname NettyServerHandler
@@ -20,16 +21,22 @@ import java.util.concurrent.ConcurrentHashMap;
  * @Created by mh
  */
 //@Component
-@ChannelHandler.Sharable
+//@ChannelHandler.Sharable
 public class NettyServerHandler extends ChannelInboundHandlerAdapter {
 
+    //public  int temp=0;
 
-
+    public static ThreadLocal<AtomicInteger> seriaNo = new ThreadLocal<AtomicInteger>(){
+        @Override
+        protected AtomicInteger initialValue() {
+            return new AtomicInteger(0);
+        }
+    };
     private static Logger logger = Logger.getLogger(NettyServerHandler.class);
 
     private static ConcurrentHashMap<String, Channel> channelMap = new ConcurrentHashMap<String, Channel>();
 
-    public  static int serialNo = 0;
+    //public  static int serialNo = 0;
 
     private RocketMqSender sender;
 
@@ -45,11 +52,16 @@ public class NettyServerHandler extends ChannelInboundHandlerAdapter {
             logger.info("解码成功......");
             logger.info(Arrays.toString((byte[]) msg));
 
-            serialNo++;
-            if(serialNo>255){
-                serialNo=0;
+            //serialNo++;
+            //if(serialNo>255){
+            //    serialNo=0;
+            //}
+            seriaNo.get().getAndIncrement();
+            if(seriaNo.get().get()>255){
+                //
+                seriaNo.get().set(0);
             }
-            byte[] newMsg = {(byte)0xeb,0x01,(byte)serialNo,0,0,0x03};
+            byte[] newMsg = {(byte)0xeb,0x01,(byte)seriaNo.get().get(),0,0,0x03};
             ctx.writeAndFlush(newMsg);
         }
         //ConstructMessageBase cmb = new ConstructMessageBase();
@@ -102,12 +114,15 @@ public class NettyServerHandler extends ChannelInboundHandlerAdapter {
         logger.info("接收新连接 !    IP为 "+clientIp);
         channelMap.put(clientIp,ctx.channel());
         logger.info("=====> 构建查询消息包===> 序列号为0");
+        //if(seriaNo!=0){
+        //    logger.info("重置前的seriaNo==="+seriaNo);
+        //    seriaNo=0;
+        //}
+        AtomicInteger serialNo = seriaNo.get();
+        if(serialNo.get()!=0){
+            logger.info("重置前的seriaNo==="+serialNo);
+        }
         ConstructMessageBase constructMessageBase = new ConstructMessageBase();
-        channelMap.get(clientIp).writeAndFlush(constructMessageBase.constructQuery(serialNo));
-    }
-
-    @Override
-    public void channelInactive(ChannelHandlerContext ctx) throws Exception {
-
+        channelMap.get(clientIp).writeAndFlush(constructMessageBase.constructQuery(serialNo.get()));
     }
 }

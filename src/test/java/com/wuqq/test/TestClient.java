@@ -10,6 +10,11 @@ import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 
 import io.netty.channel.socket.nio.NioSocketChannel;
+import io.netty.handler.codec.bytes.ByteArrayDecoder;
+import io.netty.handler.codec.bytes.ByteArrayEncoder;
+import io.netty.handler.logging.LogLevel;
+import io.netty.handler.logging.LoggingHandler;
+
 /**
  * @Classname TestClient
  * @Description TODO
@@ -41,7 +46,9 @@ public class TestClient {
                 @Override
 
                 public void initChannel(SocketChannel ch) throws Exception {
-
+                    ch.pipeline().addLast(new LoggingHandler(LogLevel.DEBUG));
+                    ch.pipeline().addLast(new ByteArrayDecoder());
+                    ch.pipeline().addLast(new ByteArrayEncoder());
                     ch.pipeline().addLast(new TimeClientHandler());
 
                 }
@@ -51,7 +58,7 @@ public class TestClient {
 
             // Start the client.
 
-            ChannelFuture f = b.connect("127.0.0.1", 9090).sync(); // (5)
+            ChannelFuture f = b.connect("172.20.18.34", 5001).sync(); // (5)
 
 
             // Wait until the connection is closed.

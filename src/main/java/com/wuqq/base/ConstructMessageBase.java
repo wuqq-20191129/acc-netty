@@ -1,6 +1,6 @@
 package com.wuqq.base;
 
-import com.wuqq.constant.message.Message;
+
 import com.wuqq.exception.MessageException;
 import org.apache.log4j.Logger;
 

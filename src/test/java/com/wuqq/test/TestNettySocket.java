@@ -25,7 +25,7 @@ public class TestNettySocket {
          int fromServer=0;
         int serial=0;
         try {
-            Socket socket = new Socket("172.20.18.34",5001);
+            Socket socket = new Socket("172.20.18.9",5001);
 
             //BufferedInputStream in = new BufferedInputStream(socket.getInputStream());
 
@@ -46,10 +46,16 @@ public class TestNettySocket {
                     fromServer = in.read();
                     System.out.println("fromServer==="+fromServer);
 
-                    QUERY[2]=(byte)fromServer;
-                    OutputStream out = socket.getOutputStream();
-                    System.out.println(Arrays.toString(QUERY));
-                    out.write(QUERY);
+
+                    //if(serial<255){
+                        QUERY[2]=(byte)fromServer;
+                        OutputStream out = socket.getOutputStream();
+                        System.out.println(Arrays.toString(QUERY));
+                        out.write(QUERY);
+                        out.flush();
+                    //    serial++;
+                    //}
+
                 } catch (IOException e) {
                     e.printStackTrace();
                 } catch (Exception e) {

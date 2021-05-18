@@ -43,7 +43,7 @@ public class NettyChannelInitializer extends ChannelInitializer<SocketChannel> {
         pipeline.addLast(new LoggingHandler(LogLevel.DEBUG));
         pipeline.addLast(nettyIpFilter);
         pipeline.addLast(new IdleStateHandler(5, 0, 0, TimeUnit.SECONDS));
-        pipeline.addLast(new LengthFieldBasedFrameDecoder(65536,2,2,2,0));
+        //pipeline.addLast(new LengthFieldBasedFrameDecoder(65536,2,2,2,0));
         pipeline.addLast(new NettyAccDecoder());
         pipeline.addLast(new ByteArrayEncoder());
         pipeline.addLast(new NettyServerHandler(sender));
